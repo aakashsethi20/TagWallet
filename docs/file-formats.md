@@ -1,5 +1,7 @@
 # Import, backup, and recovery
 
+For step-by-step phone instructions and choosing between BIN, catalog, and restore, see [Import guide](import-guide.md).
+
 ## Add cards without rebuilding
 In **Library & Backup**, choose Import BIN files and select one or more files from Files/iCloud Drive. Review the counts and rejected files, then confirm. Both 532- and 540-byte dumps are accepted and normalized to 532 bytes. Identical dumps are skipped; additional dumps are retained. Names and images can be edited on a card's detail screen.
 

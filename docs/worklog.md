@@ -97,3 +97,11 @@ User requested stopping at the next checkpoint to continue with a less expensive
 - Simulator interactive inspection was attempted through the native UI tool, but both Simulator name and bundle identifier returned Invalid app. Multi-selection, batch/skip/resume, image review, import review/restore, dark mode, and larger-text visual checks remain unverified.
 - Physical NFC/Files/Switch checks remain pending per device-checklist.md. No phone installation, NFC write, push, or deployment performed.
 - Remaining review: future bundled metadata update policy, interrupted restore/recovery behavior, stale currentID handling (resume already falls back to remaining), and full-library snapshot latency. Do not treat this checkpoint as end-to-end acceptance.
+
+## User device feedback / documentation checkpoint (2026-11-10)
+- User reports the base is usable but buggy; feature implementation is not UX acceptance. No app changes requested at this stage.
+- Recorded open issues and acceptance criteria in checkpoint-ux-issues.md: batch-list scope change, Add/Remove badge flashing, 2–3 second series filtering, empty results after filter dismissal, broken/confusing All reset, and runtime layout diagnostics.
+- Recorded representative excerpts/grouping of the supplied browsing log in checkpoint-debug-log.md; root causes and action correlation are not established.
+- Added import-guide.md with phone BIN/catalog steps, review switches, duplicate/error handling, batch prompt semantics, generator command, and backup/restore distinction. Instructions checked against the current import/store/generator code; no new device verification performed.
+- The requested ability to create batch lists supersedes the original single Christmas batch direction, but multiple-list lifecycle and completion semantics remain to be designed before implementation.
+- Documentation-only continuation. The earlier tuple-label fix remains a separate local source change; personal project settings and untracked files are preserved.
