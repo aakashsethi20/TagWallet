@@ -142,3 +142,9 @@ User requested stopping at the next checkpoint to continue with a less expensive
 - Replaced machine-specific source paths in import-guide.md, file-formats.md, and implementation-plan.md with the verified source repository link and ignored project-relative checkout instructions.
 - Added root AGENTS.md covering architecture, batch/persistence invariants, private-data rules, portable validation commands, checkpoint discipline, and remaining verification.
 - Added the current handoff summary above so completed features/publication are distinct from historical TODOs. Documentation-only change; no app behavior changed.
+
+## Shared Xcode settings cleanup (2026-11-10)
+- User explicitly authorized committing the previously preserved project settings after review confirmed the diff contains identifiers/build settings, not signing credentials.
+- Removed redundant project-level references to the original development team. App Debug/Release configurations retain the fork owner's team and kashmoney.TagWallet bundle identifier, preserving installed-app identity.
+- Retained Xcode upgrade metadata, framework-header warning, user-script sandboxing, and string-catalog symbol generation settings.
+- Validation: project plist lint passed, unsigned generic iOS build passed, diff whitespace check passed. No certificate/private key/provisioning profile added. Earlier statements that these settings remain uncommitted are historical.
