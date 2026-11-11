@@ -131,4 +131,25 @@ final class WalletStoreTests: XCTestCase {
         XCTAssertThrowsError(try store.save(bad))
     }
 
+    func testCatalogAndBatchFilters() throws {
+        var second = card(2); second.character = "Other"; second.name = "002 - Other"; second.productSeries = "Series 2"
+        let store = try WalletStore(directory: root, bundled: wallet([card(), second]))
+        try store.change { $0.progress.batch = [self.card().id, second.id] }
+        try store.complete(second.id, source: "manual")
+        let catalog = LibraryViewController(store: store, batch: false); catalog.loadViewIfNeeded()
+        catalog.search.searchBar.text = "etoile"; catalog.refresh(); XCTAssertEqual(catalog.visible.count, 1)
+        catalog.search.searchBar.text = ""; catalog.status = 2; catalog.series = "Series 2"; catalog.refresh()
+        XCTAssertEqual(catalog.visible.map(\.id), [second.id])
+        let batch = LibraryViewController(store: store, batch: true); batch.loadViewIfNeeded(); batch.refresh()
+        XCTAssertEqual(batch.visible.map(\.id), [card().id])
+    }
+    func testBundledCatalogBackupContainsAllArtwork() throws {
+        let bundle = Bundle(for: CardDetailController.self)
+        let catalog = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: bundle.url(forResource: "initialTagWallet", withExtension: "json")!))
+        let store = try WalletStore(directory: root, bundled: catalog)
+        XCTAssertEqual(store.products.count, 509)
+        let backup = try JSONDecoder().decode(LibrarySnapshot.self, from: store.backup())
+        XCTAssertEqual(backup.images.count, 509)
+    }
+
 }

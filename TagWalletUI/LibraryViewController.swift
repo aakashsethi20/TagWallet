@@ -53,6 +53,7 @@ final class LibraryViewController: UICollectionViewController, UICollectionViewD
         search.searchResultsUpdater = self; search.obscuresBackgroundDuringPresentation = false
         search.searchBar.placeholder = "Character or card number"
         navigationItem.searchController = search
+        navigationItem.hidesSearchBarWhenScrolling = false
         navigationItem.rightBarButtonItem = editButtonItem
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Filters", style: .plain, target: self, action: #selector(filters))
         NotificationCenter.default.addObserver(self, selector: #selector(refresh), name: WalletStore.changed, object: store)
@@ -200,10 +201,10 @@ final class CardDetailController: UITableViewController, UIDocumentPickerDelegat
         guard let url = urls.first else { return }
         attempt {
             let data = try WalletStore.normalizedImage(ImportController.read(url, limit: 10_000_000))
-            let preview = UIAlertController(title: "Use this image?", message: "The image will be saved offline for \(product.name).", preferredStyle: .alert)
-            preview.addAction(UIAlertAction(title: "Cancel", style: .cancel))
-            preview.addAction(UIAlertAction(title: "Save image", style: .default) { _ in self.attempt { try self.store.change { $0.images[self.id] = data }; self.refresh() } })
-            present(preview, animated: true)
+            let preview = ImageReviewController(data: data) {
+                self.attempt { try self.store.change { $0.images[self.id] = data }; self.refresh() }
+            }
+            present(UINavigationController(rootViewController: preview), animated: true)
         }
     }
     func confirmWrite() {
@@ -241,4 +242,21 @@ final class CardDetailController: UITableViewController, UIDocumentPickerDelegat
         attempt { try store.change { $0.progress.currentID = id } }; refresh()
         if start { startWrite() }
     }
+}
+
+
+final class ImageReviewController: UIViewController {
+    let data: Data
+    let saveImage: () -> Void
+    init(data: Data, save: @escaping () -> Void) { self.data = data; self.saveImage = save; super.init(nibName: nil, bundle: nil) }
+    required init?(coder: NSCoder) { fatalError("Programmatic controller") }
+    override func viewDidLoad() {
+        super.viewDidLoad(); title = "Preview image"; view.backgroundColor = .systemBackground
+        let image = UIImageView(image: UIImage(data: data)); image.contentMode = .scaleAspectFit; image.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(image); NSLayoutConstraint.activate([image.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20), image.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20), image.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20), image.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20)])
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(cancel))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save image", style: .done, target: self, action: #selector(save))
+    }
+    @objc func cancel() { dismiss(animated: true) }
+    @objc func save() { dismiss(animated: true, completion: saveImage) }
 }

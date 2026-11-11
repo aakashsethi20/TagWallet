@@ -134,7 +134,7 @@ final class WalletStore {
             try name.write(to: active, atomically: true, encoding: .utf8)
             snapshot = candidate
             imageCache.removeAllObjects()
-            for url in try fm.contentsOfDirectory(at: directory, includingPropertiesForKeys: nil) where UUID(uuidString: url.lastPathComponent) != nil && url.lastPathComponent != name && url.lastPathComponent != previous {
+            for url in (try? fm.contentsOfDirectory(at: directory, includingPropertiesForKeys: nil)) ?? [] where UUID(uuidString: url.lastPathComponent) != nil && url.lastPathComponent != name && url.lastPathComponent != previous {
                 try? fm.removeItem(at: url)
             }
             NotificationCenter.default.post(name: Self.changed, object: self)
@@ -153,9 +153,11 @@ final class WalletStore {
         guard envelope.schemaVersion == nil || envelope.schemaVersion == 1 else { throw WalletFailure("Unsupported catalog version.") }
         let imported = TagWallet(tagProducts: envelope.tagProducts, staticKey: envelope.staticKey, dataKey: envelope.dataKey)
         try Self.validate(LibrarySnapshot(wallet: imported, images: envelope.images ?? [:]))
+        var normalizedImages: [String: Data] = [:]
+        for (id, data) in envelope.images ?? [:] { normalizedImages[id] = try Self.normalizedImage(data) }
         try change { next in
             next.wallet.tagProducts = Self.merge(next.wallet.tagProducts, imported.tagProducts, replace: replace)
-            for (id, image) in envelope.images ?? [:] where replace || next.images[id] == nil { next.images[id] = image }
+            for (id, image) in normalizedImages where replace || next.images[id] == nil { next.images[id] = image }
             if keys {
                 next.wallet.staticKey = imported.staticKey ?? next.wallet.staticKey
                 next.wallet.dataKey = imported.dataKey ?? next.wallet.dataKey
@@ -177,6 +179,7 @@ final class WalletStore {
     }
     static func normalizedImage(_ data: Data) throws -> Data {
         guard data.count <= 10_000_000, let source = CGImageSourceCreateWithData(data as CFData, nil),
+              let format = CGImageSourceGetType(source) as String?, ["public.png", "public.jpeg"].contains(format),
               let properties = CGImageSourceCopyPropertiesAtIndex(source, 0, nil) as? [CFString: Any],
               let width = properties[kCGImagePropertyPixelWidth] as? Int, let height = properties[kCGImagePropertyPixelHeight] as? Int,
               width > 0, height > 0, Double(width) * Double(height) <= 25_000_000,

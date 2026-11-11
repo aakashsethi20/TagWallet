@@ -40,3 +40,48 @@
 - Latest test result: /private/tmp/TagWallet-test-build/Logs/Test/Test-TagWallet-2026.11.10_22-22-00--0500.xcresult.
 - Snapshot storage keeps logical user data/progress together in one atomic generation for transactional restores; images are embedded in snapshots for self-contained backup semantics.
 - Remaining: simulator visual inspection, polish/review, generator tests, final device build and checkpoint. Physical NFC and Files-provider verification require user hardware; see device-checklist.md.
+
+## Pause / model handoff — requested by user
+
+User requested stopping at the next checkpoint to continue with a less expensive model. Do not resume implementation unless asked.
+
+### Commits
+- 2a41e00: shared implementation plan and worklog.
+- d9aeabc: first feature checkpoint (offline catalog/artwork, store, UI, import/backup, writer, tests).
+- The next checkpoint contains the final review fixes and this handoff; identify it with `git log -1`.
+
+### Changes since d9aeabc
+- Made generation-directory cleanup best effort so a cleanup error cannot remove an already-activated snapshot.
+- Added actual imported-image preview, always-visible search, and normalization/type validation for catalog images.
+- Added Python generator tests (4 passed).
+- Expanded XCTest to include combined search/status/series filters and full 509-image backup coverage.
+
+### Validation and artifacts
+- Earlier unsigned iOS device build passed.
+- Earlier simulator suite: 12 tests passed, including fake NFC success/cancellation and save retry without rewriting.
+- Final expanded suite launched with log `/private/tmp/TagWallet-tests-final.log`; final outcome is appended below.
+- Catalog and manifest validated at 509 unique cards / 509 matched PNGs. Image widths 230–630, heights 276–450 (source assets, not print-resolution claims).
+- Simulator launched successfully; catalog screenshot `/private/tmp/tagwallet-catalog.png` visually verified as a two-column image grid with correct cards and navigation. This screenshot predates the always-visible-search polish.
+- `git diff --check` passed before checkpoint.
+
+### Exact resume priorities
+1. Read implementation-plan.md and this log; inspect `git status` and latest commit before editing.
+2. Review current implementation against the plan. Core flows exist, but don't equate passing unit tests with end-to-end readiness.
+3. Verify simulator interactions for multi-selection, batch/skip/resume, image preview, import review, restore, dark mode and larger text. Only catalog screenshot was visually inspected.
+4. Review UI/storage performance: snapshots embed images and validate them on mutations; large restored libraries may stall the main thread. Most bundled images are external resources until backup/restore. This deserves profiling/optimization.
+5. Review remaining edge cases: interrupted import/restore, startup recovery, stale currentID, image cache invalidation, metadata precedence on future bundled updates, and failed progress-save navigation.
+6. Run a final unsigned device build after review, then physical checklist with user hardware. No real NFC writes were performed by the agent; the user only verified the earlier pilot.
+7. Keep committing coherent checkpoints and updating this log.
+
+### Local state to preserve
+- `TagWallet.xcodeproj/project.pbxproj` still has pre-existing personal signing/bundle/Xcode-warning settings unstaged. New feature registrations and iOS 17 minimum are committed; do not overwrite the user's remaining settings.
+- Personal `.DS_Store` and Xcode `xcuserdata` are untracked and intentionally excluded.
+- Python `scripts/__pycache__` is generated and excluded from commits.
+- Simulator iPhone 17 (B598B072-A7C5-4E92-925E-8961B3F87C9A) was booted for visual inspection.
+- No subagents were used. No push, deployment, or phone installation was performed.
+
+### Final checkpoint results
+- Expanded simulator suite PASSED: 14 tests, 0 failures (7.923 seconds test execution).
+- Result bundle: /private/tmp/TagWallet-test-build/Logs/Test/Test-TagWallet-2026.11.10_22-25-45--0500.xcresult.
+- Python generator suite PASSED: 4 tests.
+- Implementation paused as requested; remaining review/device checks are listed above.
