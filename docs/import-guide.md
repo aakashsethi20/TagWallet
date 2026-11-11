@@ -45,14 +45,18 @@ From the TagWallet repository, with the expected source library available:
 ```bash
 python3 scripts/import_catalog.py \
   --source /Users/kashsethi/projects/Animal-Crossing-Amiibo \
-  --output /private/tmp/tagwallet-catalog.json \
+  --output private/tagwallet-catalog.json \
   --images TagWalletUI/CardImages
 ```
 
-Copy `tagwallet-catalog.json` to iCloud Drive, then select it using Import catalog on the phone. The generator expects the source folder structure described in [implementation-plan.md](implementation-plan.md); it is for this 509-card source collection, not an arbitrary folder of BINs. Use phone BIN import for individual dumps.
+Copy `private/tagwallet-catalog.json` to iCloud Drive, then select it using Import catalog on the phone. The generator expects the source folder structure described in [implementation-plan.md](implementation-plan.md); it is for this 509-card source collection, not an arbitrary folder of BINs. Use phone BIN import for individual dumps.
 
 The generated JSON includes both keys from the source installer folder and embeds matching artwork when `--images` is supplied. Keep the file private. Omitting `--images` produces a catalog referencing bundled image resources instead of carrying portable artwork. Technical fields and validation-only commands are in [file-formats.md](file-formats.md).
 
 ## Keep a recoverable copy
 
 Use **Export backup**, confirm, and save the `.tagwalletbackup` outside TagWallet's own folder, such as iCloud Drive. It includes keys, dumps, images, all saved batch lists, the active list, and progress. Use **Restore backup** to recover that full state, reviewing the date/counts before confirming replacement. A catalog is useful for sharing/merging library content; a backup is the file to keep for recovering your full setup.
+
+## Source repository configuration
+
+The tracked `initialTagWallet.example.json` is metadata-only: keys are null and dumps are empty. Supply your own data via Files imports. Do not commit generated catalogs; put Mac-generated private catalogs under ignored `private/`. URL import is not available; download to Files first.

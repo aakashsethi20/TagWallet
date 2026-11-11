@@ -117,3 +117,9 @@ User requested stopping at the next checkpoint to continue with a less expensive
 - Native UI inventory excludes Simulator; full app path also returned Invalid app. No interactive visual verification claimed. Phone checks: Add/Remove badge stability, selection, filter swipe-dismiss/Apply/reset with active search, named lists/relaunch, dark mode/larger text, and fresh log capture.
 - Existing physical NFC/Files/Switch checklist remains pending. Large embedded-image snapshot encoding is still synchronous; investigate separately if restored-library mutations stall.
 - Included the previously requested and built tuple-label warning fix in this checkpoint; preserved personal project settings/untracked files. No push or phone install.
+
+## Public-source preparation checkpoint (2026-11-10)
+- Historical note: earlier entries describe a private development build with bundled keys/dumps. The publishable build uses metadata-only initialTagWallet.example.json, empty dumps and null keys; it requires Files imports for writing.
+- User requested public GitHub ownership with upstream attribution, preferring a linked fork if safe. Audited upstream: no real key/dump-sized payloads detected. Rewrote only feature history in an isolated candidate; preserved upstream ancestry and MIT credit.
+- Prepared ignored private inputs, metadata-only resource, clean-checkout setup/readme, history/staged audit script, and CI audit. See repository-publication-checkpoint.md for authoritative publication status and limitations.
+- Candidate source passed 22 app tests without private catalog inputs; generator tests passed. Device/NFC verification remains pending. URL import remains unimplemented; download to Files then import.

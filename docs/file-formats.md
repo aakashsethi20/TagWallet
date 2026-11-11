@@ -26,11 +26,11 @@ Images selected from Files must be PNG/JPEG, at most 10 MB and 25 megapixels. Th
 ```bash
 python3 scripts/import_catalog.py \
   --source /Users/kashsethi/projects/Animal-Crossing-Amiibo \
-  --output TagWalletUI/initialTagWallet.json --validate-only
+  --output private/catalog.json --validate-only
 
 python3 scripts/import_catalog.py \
   --source /Users/kashsethi/projects/Animal-Crossing-Amiibo \
-  --output /private/tmp/christmas-catalog.json \
+  --output private/catalog.json \
   --images TagWalletUI/CardImages
 ```
 

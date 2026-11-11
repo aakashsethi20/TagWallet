@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func configure(_ window: UIWindow) {
         do {
-            let url = Bundle.main.url(forResource: "initialTagWallet", withExtension: "json")!
+            let url = Bundle.main.url(forResource: "initialTagWallet.example", withExtension: "json")!
             let bundled = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: url))
             let store = try WalletStore(bundled: bundled)
             let tabs = UITabBarController()

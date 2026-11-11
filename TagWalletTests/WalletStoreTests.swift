@@ -241,7 +241,7 @@ final class WalletStoreTests: XCTestCase {
         XCTAssertEqual(cell.badge.title(for: .normal), "Queued · Remove")
     }
     func testFullCatalogRepeatedFilteringTiming() throws {
-        let catalog = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: Bundle(for: CardDetailController.self).url(forResource: "initialTagWallet", withExtension: "json")!))
+        let catalog = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: Bundle(for: CardDetailController.self).url(forResource: "initialTagWallet.example", withExtension: "json")!))
         let store = try WalletStore(directory: root, bundled: catalog)
         let controller = LibraryViewController(store: store, batch: false); controller.loadViewIfNeeded()
         let series = try XCTUnwrap(store.products.first?.productSeries)
@@ -257,7 +257,7 @@ final class WalletStoreTests: XCTestCase {
     }
     func testBundledCatalogBackupContainsAllArtwork() throws {
         let bundle = Bundle(for: CardDetailController.self)
-        let catalog = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: bundle.url(forResource: "initialTagWallet", withExtension: "json")!))
+        let catalog = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: bundle.url(forResource: "initialTagWallet.example", withExtension: "json")!))
         let store = try WalletStore(directory: root, bundled: catalog)
         XCTAssertEqual(store.products.count, 509)
         let backup = try JSONDecoder().decode(LibrarySnapshot.self, from: store.backup())

@@ -1,86 +1,42 @@
 # TagWallet
 
-TagWallet is an simple iOS app to manage MiFare NTAG215 NFC (e.g. Amiibo) tags. You can read tags, save the data dumps, 
-and optionally write those data dumps to a new blank tag.
+An iOS app for managing NTAG215 cards, an offline catalog, named batch lists, and sequential NFC writing. Based on [Kevin Brewster’s TagWallet](https://github.com/kevinbrewster/TagWallet); original MIT license and copyright are retained in [LICENSE](LICENSE).
 
-It's similar to the Android [TagMo](https://github.com/HiddenRamblings/TagMo) App.
+## Build and run
 
-## Background
+Open `TagWallet.xcodeproj` in Xcode, select your signing team and a unique bundle identifier, then run the TagWallet scheme on your iPhone. The project minimum is iOS 17. Real NFC requires a supported iPhone; the simulator supports catalog/UI testing only.
 
-[Reverse Engineering Nintendo Amiibo](https://kevinbrewster.github.io/Amiibo-Reverse-Engineering/)
+The bundled `TagWalletUI/initialTagWallet.example.json` contains 509 card metadata records and **no keys or card dumps**. Offline artwork is included. A fresh installation can browse the catalog immediately; writing requires importing your own valid dumps and both keys. Cards with no dump cannot be written.
 
-## Requirements
+## Supply your own data
 
-iPhone 7 or above and iOS 13 or above (for NFC write capabilities)
+Open **Library & Backup**:
 
-## Installation
+- **Import BIN files** adds one or more 532/540-byte card dumps.
+- **Import catalog** merges a compatible TagWallet JSON containing card records and dumps, optionally images/keys.
+- **Import unfixed-info.bin (data key)** and **Import locked-secret.bin (static key)** configure the two 80-byte key slots.
+- **Export backup / Restore backup** saves or restores the full private library, named lists, images, keys, and completion history.
 
-There is no binary available and the app is not available on the App Store. You need to download the code, 
-open in Xcode and manually run it on an iPhone. 
+See the [step-by-step import guide](docs/import-guide.md) and [file formats](docs/file-formats.md). URL imports are not implemented: download files into Files first, then import them. No download of keys/dumps occurs automatically.
 
-## Configuration
+To prepare a private catalog on a Mac, use `scripts/import_catalog.py` with your own source files and write the output under the ignored `private/` directory. Never overwrite the tracked example with personal data. The ignored legacy `initialTagWallet.json` is not bundled by this project; import it through Files instead. Ignore rules do not protect arbitrary renamed JSON files: review staged changes before committing.
 
-In the TagWalletUI folder is a file `initialTagWallet.json`. By default, this file is misconfigured. You will need 
-to update the file with valid values to enable decrpytion and cloning of certain NTAG215 cards. 
+Existing installed libraries remain in app storage when updating with the same bundle identifier. Export a backup before uninstalling or changing bundle identifiers.
 
-`staticKey`: An 80-byte base64 encoded retail key (aka "locked-secret.bin")
+## Batch lists
 
-`dataKey`: An 80-byte base64 encoded retail key (aka "unfixed-info.bin")
+Use **Lists → New batch** in Catalog or Batch. Add uses the remembered active list directly, including a one-list setup. Membership/resume is per list; completion and Switch-tested history is shared.
 
-`tagProducts`: An array of previously dumped tag data.
+## Validation and status
 
-
-Example `initialTagWallet.json`:
-
-```json
-{
-  "dataKey": {
-    "data": "__SOME_BASE64_ENCODED_STRING_OF_80_BYTES__"
-  },
-  "staticKey": {
-    "data": "__SOME_BASE64_ENCODED_STRING_OF_80_BYTES__"
-  },
-  "tagProducts": [
-    {
-      "tail": "__4_BYTE_HEX__",
-      "character": "Test",
-      "head": "__4_BYTE_HEX__",
-      "gameSeries": "Test",
-      "type": "Figure",
-      "imageURL": "",
-      "name": "Test",
-      "productSeries": "Test",
-      "dumps": [
-        {
-          "data": "__SOME_BASE64_ENCODED_STRING_OF_540_BYTES__"
-        }
-      ]
-    }
-  ]
-}
-```
-
-
-
-
-
-## Offline library and Christmas batch
-
-The app now includes the complete 509-card catalog and offline images. Use Catalog to
-select cards, Christmas batch to track Remaining/Done and write sequentially, and
-Library & Backup to import BINs/catalogs/keys or export/restore your data.
-
-**Update the existing installation; do not uninstall to refresh the catalog.** Save
-an external backup before deleting the app. On-device imports do not reset progress.
-
-- [Import commands, file formats, backups and recovery](docs/file-formats.md)
-- [Implementation plan](docs/implementation-plan.md)
-- [Worklog and checkpoint history](docs/worklog.md)
-- [Device acceptance checklist](docs/device-checklist.md)
-
-Run automated tests with Xcode's TagWallet scheme (Cmd-U), or:
+Run Cmd-U using the TagWallet scheme, or run:
 
 ```bash
 xcodebuild -project TagWallet.xcodeproj -scheme TagWallet \
   -destination 'platform=iOS Simulator,name=iPhone 17' test
+python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
+
+Tests use synthetic dump/key fixtures. [UX issues and implementation status](docs/checkpoint-ux-issues.md) tracks completed changes and pending device verification. NFC, Files-provider, and Switch checks remain in the [device checklist](docs/device-checklist.md).
+
+[Publication checkpoint](docs/repository-publication-checkpoint.md) records sanitization and migration status. [Worklog](docs/worklog.md) and [implementation plan](docs/implementation-plan.md) contain historical development context; statements about an earlier bundled writable catalog describe the private development checkpoint, not this public-source configuration.
