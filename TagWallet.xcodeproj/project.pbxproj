@@ -3,8 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
+
+        AC0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagWalletTests/WalletStoreTests.swift; sourceTree = SOURCE_ROOT; };
+        AC0000000000000000000002 = {isa = PBXBuildFile; fileRef = AC0000000000000000000001; };
+        AC0000000000000000000003 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AC0000000000000000000002,); runOnlyForDeploymentPostprocessing = 0; };
+        AC0000000000000000000004 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = TagWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        AC0000000000000000000005 = {isa = PBXNativeTarget; buildConfigurationList = AC0000000000000000000006; buildPhases = (AC0000000000000000000003,); buildRules = (); dependencies = (AC0000000000000000000009,); name = TagWalletTests; productName = TagWalletTests; productReference = AC0000000000000000000004; productType = "com.apple.product-type.bundle.unit-test"; };
+        AC0000000000000000000006 = {isa = XCConfigurationList; buildConfigurations = (AC0000000000000000000007, AC0000000000000000000008,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        AC0000000000000000000007 = {isa = XCBuildConfiguration; name = Debug; buildSettings = {GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = kashmoney.TagWalletTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagWallet.app/TagWallet"; BUNDLE_LOADER = "$(TEST_HOST)"; TARGETED_DEVICE_FAMILY = "1,2"; }; };
+        AC0000000000000000000008 = {isa = XCBuildConfiguration; name = Release; buildSettings = {GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = kashmoney.TagWalletTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagWallet.app/TagWallet"; BUNDLE_LOADER = "$(TEST_HOST)"; TARGETED_DEVICE_FAMILY = "1,2"; }; };
+        AC0000000000000000000009 = {isa = PBXTargetDependency; target = 67BC147E245205A00028E9FE; targetProxy = AC000000000000000000000A; };
+        AC000000000000000000000A = {isa = PBXContainerItemProxy; containerPortal = 67BC1477245205A00028E9FE; proxyType = 1; remoteGlobalIDString = 67BC147E245205A00028E9FE; remoteInfo = TagWallet; };
+
 
 /* Begin PBXBuildFile section */
 		67BC1483245205A00028E9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC1482245205A00028E9FE /* AppDelegate.swift */; };
@@ -22,6 +34,12 @@
 		67BC14AC24520BB70028E9FE /* NTAG215Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC14AA24520BB70028E9FE /* NTAG215Tag.swift */; };
 		67BC14AD24520BB70028E9FE /* MiFareTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC14AB24520BB70028E9FE /* MiFareTag.swift */; };
 		67CC96952456228800592A27 /* initialTagWallet.json in Resources */ = {isa = PBXBuildFile; fileRef = 67CC96942456228800592A27 /* initialTagWallet.json */; };
+		AB0000000000000000000000 = {isa = PBXBuildFile; fileRef = AA0000000000000000000000; };
+		AB0000000000000000000001 = {isa = PBXBuildFile; fileRef = AA0000000000000000000001; };
+		AB0000000000000000000002 = {isa = PBXBuildFile; fileRef = AA0000000000000000000002; };
+		AB0000000000000000000003 = {isa = PBXBuildFile; fileRef = AA0000000000000000000003; };
+		AB0000000000000000000004 = {isa = PBXBuildFile; fileRef = AA0000000000000000000004; };
+AB0000000000000000000005 = {isa = PBXBuildFile; fileRef = AA0000000000000000000005; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +60,12 @@
 		67BC14AB24520BB70028E9FE /* MiFareTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiFareTag.swift; sourceTree = "<group>"; };
 		67CC96932454091E00592A27 /* TagWallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TagWallet.entitlements; sourceTree = "<group>"; };
 		67CC96942456228800592A27 /* initialTagWallet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = initialTagWallet.json; sourceTree = "<group>"; };
+		AA0000000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStore.swift; sourceTree = "<group>"; };
+		AA0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchWriter.swift; sourceTree = "<group>"; };
+		AA0000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = folder; path = CardImages; sourceTree = "<group>"; };
+AA0000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +100,13 @@
 		67BC1481245205A00028E9FE /* TagWalletUI */ = {
 			isa = PBXGroup;
 			children = (
-				67CC96932454091E00592A27 /* TagWallet.entitlements */,
+				AA0000000000000000000000,
+				AA0000000000000000000001,
+				AA0000000000000000000002,
+				AA0000000000000000000003,
+				AA0000000000000000000004,
+				AA0000000000000000000005,
+67CC96932454091E00592A27 /* TagWallet.entitlements */,
 				67CC96942456228800592A27 /* initialTagWallet.json */,
 				67BC1482245205A00028E9FE /* AppDelegate.swift */,
 				67BC1484245205A00028E9FE /* SceneDelegate.swift */,
@@ -132,6 +162,7 @@
 		67BC1477245205A00028E9FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Kevin Brewster";
@@ -157,6 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+                AC0000000000000000000005,
 				67BC147E245205A00028E9FE /* TagWallet */,
 			);
 		};
@@ -167,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0000000000000000000004,
 				67BC148F245205A20028E9FE /* LaunchScreen.storyboard in Resources */,
 				67BC148C245205A20028E9FE /* Assets.xcassets in Resources */,
 				67BC148A245205A00028E9FE /* Main.storyboard in Resources */,
@@ -181,7 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67BC1498245206C70028E9FE /* TagProduct.swift in Sources */,
+				AB0000000000000000000000,
+				AB0000000000000000000001,
+				AB0000000000000000000002,
+				AB0000000000000000000003,
+				AB0000000000000000000005,
+67BC1498245206C70028E9FE /* TagProduct.swift in Sources */,
 				67BC14AD24520BB70028E9FE /* MiFareTag.swift in Sources */,
 				67BC14A1245208190028E9FE /* TagProductsCollectionViewController.swift in Sources */,
 				67BC14AC24520BB70028E9FE /* NTAG215Tag.swift in Sources */,
@@ -338,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G68Z6JNXEP;
 				INFOPLIST_FILE = TagWalletUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G68Z6JNXEP;
 				INFOPLIST_FILE = TagWalletUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -63,3 +63,24 @@ Example `initialTagWallet.json`:
 
 
 
+
+## Offline library and Christmas batch
+
+The app now includes the complete 509-card catalog and offline images. Use Catalog to
+select cards, Christmas batch to track Remaining/Done and write sequentially, and
+Library & Backup to import BINs/catalogs/keys or export/restore your data.
+
+**Update the existing installation; do not uninstall to refresh the catalog.** Save
+an external backup before deleting the app. On-device imports do not reset progress.
+
+- [Import commands, file formats, backups and recovery](docs/file-formats.md)
+- [Implementation plan](docs/implementation-plan.md)
+- [Worklog and checkpoint history](docs/worklog.md)
+- [Device acceptance checklist](docs/device-checklist.md)
+
+Run automated tests with Xcode's TagWallet scheme (Cmd-U), or:
+
+```bash
+xcodebuild -project TagWallet.xcodeproj -scheme TagWallet \
+  -destination 'platform=iOS Simulator,name=iPhone 17' test
+```

@@ -29,3 +29,14 @@
 
 ## Checkpoints
 - Documentation checkpoint: plan/worklog on new branch; code work remains unvalidated WIP.
+
+## Implementation checkpoint (2026-11-10)
+- Documentation checkpoint: 2a41e00.
+- Generated 509 products and downloaded 509/509 matching offline PNGs at pinned revision 6115745c56ff762ce212ced6fbad9ea195d659b3; manifest records dimensions/URLs. No missing matches, so Nintendo fallback unnecessary.
+- Added shared-store catalog grid, batch, detail actions, sequential writer, scan reader, Files BIN/catalog/key/image imports, backup/export/restore, and recovery screen.
+- Model decoding validates binary lengths/key layout; legacy invalid key fields fall back to bundled keys.
+- Registered new sources/resources and a shared XCTest scheme/target. Current project builds for the existing user-selected deployment target; tracked target minimum will be 17.0 for the new document-picker UI.
+- First unsigned device build passed. First eight tests passed; expanded suite now passes 12 tests, including fake-writer cancellation/success and persistence retry without another write.
+- Latest test result: /private/tmp/TagWallet-test-build/Logs/Test/Test-TagWallet-2026.11.10_22-22-00--0500.xcresult.
+- Snapshot storage keeps logical user data/progress together in one atomic generation for transactional restores; images are embedded in snapshots for self-contained backup semantics.
+- Remaining: simulator visual inspection, polish/review, generator tests, final device build and checkpoint. Physical NFC and Files-provider verification require user hardware; see device-checklist.md.

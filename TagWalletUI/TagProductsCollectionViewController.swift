@@ -112,6 +112,8 @@ class TagProductsCollectionViewContoller : UIViewController {
             return
         }
         tagProductVC.tagProduct = tagProduct
+        tagProductVC.staticKey = tagWallet?.staticKey
+        tagProductVC.dataKey = tagWallet?.dataKey
         tagProductVC.newlyReadDump = newDump
         tagProductVC.tagProductsCollectionViewContoller = self
         searchController.searchBar.endEditing(true)

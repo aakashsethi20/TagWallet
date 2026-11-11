@@ -16,6 +16,15 @@ struct TagDump : Codable, Equatable {
     }
     let data: Data
     
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let raw = try container.decode(Data.self, forKey: .data)
+        guard [532, 540].contains(raw.count), let value = TagDump(data: raw) else {
+            throw DecodingError.dataCorruptedError(forKey: .data, in: container, debugDescription: "Invalid binary data")
+        }
+        self = value
+    }
+
     init?(data: Data) {
         guard data.count >= 532 else {
             NSLog("TagDump: invalid data of \(data.count)")

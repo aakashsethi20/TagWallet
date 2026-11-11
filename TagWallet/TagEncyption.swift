@@ -19,6 +19,15 @@ struct TagKey : Codable {
     var magicBytes: Data { data.subdata(in: 32..<(32 + Int(magicBytesSize))) }
     var xorPad: Data { data.subdata(in: 48..<80) }
     
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let raw = try container.decode(Data.self, forKey: .data)
+        guard raw.count == 80 && raw[31] <= 16, let value = TagKey(data: raw) else {
+            throw DecodingError.dataCorruptedError(forKey: .data, in: container, debugDescription: "Invalid binary data")
+        }
+        self = value
+    }
+
     init?(data: Data) {
         guard data.count == 80, data.startIndex == 0 else {
             return nil

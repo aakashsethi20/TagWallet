@@ -1,0 +1,4074 @@
+[
+  {
+    "id": "0181000100440502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01810001-00440502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0181000100440502.png"
+  },
+  {
+    "id": "0183000100450502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01830001-00450502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0183000100450502.png"
+  },
+  {
+    "id": "0182010100460502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01820101-00460502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0182010100460502.png"
+  },
+  {
+    "id": "0187000100470502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01870001-00470502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0187000100470502.png"
+  },
+  {
+    "id": "0196000100480502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01960001-00480502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0196000100480502.png"
+  },
+  {
+    "id": "018e000100490502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018e0001-00490502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "018e000100490502.png"
+  },
+  {
+    "id": "01a30001004a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a30001-004a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01a30001004a0502.png"
+  },
+  {
+    "id": "01850001004b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01850001-004b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01850001004b0502.png"
+  },
+  {
+    "id": "018c0001004c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018c0001-004c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "018c0001004c0502.png"
+  },
+  {
+    "id": "01a40001004d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a40001-004d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01a40001004d0502.png"
+  },
+  {
+    "id": "01910001004e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01910001-004e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01910001004e0502.png"
+  },
+  {
+    "id": "01a80001004f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a80001-004f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01a80001004f0502.png"
+  },
+  {
+    "id": "01a6000100500502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a60001-00500502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01a6000100500502.png"
+  },
+  {
+    "id": "01b5000100510502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01b50001-00510502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01b5000100510502.png"
+  },
+  {
+    "id": "01b0000100520502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01b00001-00520502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01b0000100520502.png"
+  },
+  {
+    "id": "01aa000100530502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01aa0001-00530502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01aa000100530502.png"
+  },
+  {
+    "id": "01c1000100540502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01c10001-00540502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "01c1000100540502.png"
+  },
+  {
+    "id": "025d000100550502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_025d0001-00550502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "025d000100550502.png"
+  },
+  {
+    "id": "02d6000100560502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02d60001-00560502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02d6000100560502.png"
+  },
+  {
+    "id": "0216000100570502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02160001-00570502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0216000100570502.png"
+  },
+  {
+    "id": "02ef000100580502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02ef0001-00580502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02ef000100580502.png"
+  },
+  {
+    "id": "04fe000100590502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04fe0001-00590502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04fe000100590502.png"
+  },
+  {
+    "id": "02870001005a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02870001-005a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02870001005a0502.png"
+  },
+  {
+    "id": "05150001005b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_05150001-005b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "05150001005b0502.png"
+  },
+  {
+    "id": "03710001005c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03710001-005c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03710001005c0502.png"
+  },
+  {
+    "id": "04ba0001005d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ba0001-005d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04ba0001005d0502.png"
+  },
+  {
+    "id": "02db0001005e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02db0001-005e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02db0001005e0502.png"
+  },
+  {
+    "id": "03450001005f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03450001-005f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03450001005f0502.png"
+  },
+  {
+    "id": "047a000100600502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_047a0001-00600502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "047a000100600502.png"
+  },
+  {
+    "id": "049b000100610502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_049b0001-00610502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "049b000100610502.png"
+  },
+  {
+    "id": "04ed000100620502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ed0001-00620502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04ed000100620502.png"
+  },
+  {
+    "id": "027d000100630502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_027d0001-00630502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "027d000100630502.png"
+  },
+  {
+    "id": "0307000100640502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03070001-00640502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0307000100640502.png"
+  },
+  {
+    "id": "0261000100650502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02610001-00650502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0261000100650502.png"
+  },
+  {
+    "id": "0401000100660502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04010001-00660502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0401000100660502.png"
+  },
+  {
+    "id": "02c4000100670502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02c40001-00670502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02c4000100670502.png"
+  },
+  {
+    "id": "0266000100680502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02660001-00680502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0266000100680502.png"
+  },
+  {
+    "id": "02b1000100690502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02b10001-00690502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02b1000100690502.png"
+  },
+  {
+    "id": "02310001006a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02310001-006a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02310001006a0502.png"
+  },
+  {
+    "id": "03480001006b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03480001-006b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03480001006b0502.png"
+  },
+  {
+    "id": "03180001006c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03180001-006c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03180001006c0502.png"
+  },
+  {
+    "id": "03db0001006d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03db0001-006d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03db0001006d0502.png"
+  },
+  {
+    "id": "04650001006e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04650001-006e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04650001006e0502.png"
+  },
+  {
+    "id": "04000001006f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04000001-006f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04000001006f0502.png"
+  },
+  {
+    "id": "0429000100700502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04290001-00700502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0429000100700502.png"
+  },
+  {
+    "id": "03a9000100710502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03a90001-00710502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03a9000100710502.png"
+  },
+  {
+    "id": "02a4000100720502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02a40001-00720502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02a4000100720502.png"
+  },
+  {
+    "id": "0452000100730502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04520001-00730502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0452000100730502.png"
+  },
+  {
+    "id": "04a5000100740502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a50001-00740502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04a5000100740502.png"
+  },
+  {
+    "id": "0263000100750502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02630001-00750502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0263000100750502.png"
+  },
+  {
+    "id": "0323000100760502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03230001-00760502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0323000100760502.png"
+  },
+  {
+    "id": "04ec000100770502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ec0001-00770502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04ec000100770502.png"
+  },
+  {
+    "id": "040d000100780502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_040d0001-00780502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "040d000100780502.png"
+  },
+  {
+    "id": "030b000100790502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_030b0001-00790502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "030b000100790502.png"
+  },
+  {
+    "id": "04970001007a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04970001-007a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04970001007a0502.png"
+  },
+  {
+    "id": "04fd0001007b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04fd0001-007b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04fd0001007b0502.png"
+  },
+  {
+    "id": "043d0001007c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_043d0001-007c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "043d0001007c0502.png"
+  },
+  {
+    "id": "02680001007d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02680001-007d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02680001007d0502.png"
+  },
+  {
+    "id": "02190001007e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02190001-007e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02190001007e0502.png"
+  },
+  {
+    "id": "04100001007f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04100001-007f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04100001007f0502.png"
+  },
+  {
+    "id": "021b000100800502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_021b0001-00800502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "021b000100800502.png"
+  },
+  {
+    "id": "024f000100810502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_024f0001-00810502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "024f000100810502.png"
+  },
+  {
+    "id": "04e6000100820502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e60001-00820502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04e6000100820502.png"
+  },
+  {
+    "id": "0280000100830502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02800001-00830502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0280000100830502.png"
+  },
+  {
+    "id": "0235000100840502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02350001-00840502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0235000100840502.png"
+  },
+  {
+    "id": "035a000100850502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_035a0001-00850502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "035a000100850502.png"
+  },
+  {
+    "id": "0384000100860502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03840001-00860502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0384000100860502.png"
+  },
+  {
+    "id": "03ae000100870502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ae0001-00870502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03ae000100870502.png"
+  },
+  {
+    "id": "040e000100880502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_040e0001-00880502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "040e000100880502.png"
+  },
+  {
+    "id": "0394000100890502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03940001-00890502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0394000100890502.png"
+  },
+  {
+    "id": "03bc0001008a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03bc0001-008a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03bc0001008a0502.png"
+  },
+  {
+    "id": "03ee0001008b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ee0001-008b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03ee0001008b0502.png"
+  },
+  {
+    "id": "046c0001008c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_046c0001-008c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "046c0001008c0502.png"
+  },
+  {
+    "id": "04800001008d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04800001-008d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04800001008d0502.png"
+  },
+  {
+    "id": "044c0001008e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_044c0001-008e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "044c0001008e0502.png"
+  },
+  {
+    "id": "033f0001008f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_033f0001-008f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "033f0001008f0502.png"
+  },
+  {
+    "id": "02fb000100900502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02fb0001-00900502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02fb000100900502.png"
+  },
+  {
+    "id": "03a8000100910502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03a80001-00910502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03a8000100910502.png"
+  },
+  {
+    "id": "0479000100920502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04790001-00920502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0479000100920502.png"
+  },
+  {
+    "id": "03c6000100930502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03c60001-00930502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03c6000100930502.png"
+  },
+  {
+    "id": "04c7000100940502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04c70001-00940502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04c7000100940502.png"
+  },
+  {
+    "id": "0299000100950502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02990001-00950502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0299000100950502.png"
+  },
+  {
+    "id": "0208000100960502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02080001-00960502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0208000100960502.png"
+  },
+  {
+    "id": "02fa000100970502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02fa0001-00970502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02fa000100970502.png"
+  },
+  {
+    "id": "0488000100980502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04880001-00980502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0488000100980502.png"
+  },
+  {
+    "id": "050b000100990502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_050b0001-00990502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "050b000100990502.png"
+  },
+  {
+    "id": "04940001009a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04940001-009a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04940001009a0502.png"
+  },
+  {
+    "id": "03830001009b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03830001-009b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03830001009b0502.png"
+  },
+  {
+    "id": "02de0001009c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02de0001-009c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02de0001009c0502.png"
+  },
+  {
+    "id": "03290001009d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03290001-009d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "03290001009d0502.png"
+  },
+  {
+    "id": "04d10001009e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04d10001-009e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04d10001009e0502.png"
+  },
+  {
+    "id": "034b0001009f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_034b0001-009f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "034b0001009f0502.png"
+  },
+  {
+    "id": "0393000100a00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03930001-00a00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0393000100a00502.png"
+  },
+  {
+    "id": "0200000100a10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02000001-00a10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0200000100a10502.png"
+  },
+  {
+    "id": "04dd000100a20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04dd0001-00a20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04dd000100a20502.png"
+  },
+  {
+    "id": "04a6000100a30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a60001-00a30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04a6000100a30502.png"
+  },
+  {
+    "id": "04cc000100a40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04cc0001-00a40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "04cc000100a40502.png"
+  },
+  {
+    "id": "0460000100a50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04600001-00a50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0460000100a50502.png"
+  },
+  {
+    "id": "0317000100a60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03170001-00a60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0317000100a60502.png"
+  },
+  {
+    "id": "02f0000100a70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02f00001-00a70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02f0000100a70502.png"
+  },
+  {
+    "id": "0182000100a80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01820001-00a80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0182000100a80502.png"
+  },
+  {
+    "id": "018a000100a90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018a0001-00a90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "018a000100a90502.png"
+  },
+  {
+    "id": "0194000100aa0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01940001-00aa0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0194000100aa0502.png"
+  },
+  {
+    "id": "0189000100ab0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01890001-00ab0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0189000100ab0502.png"
+  },
+  {
+    "id": "019d000100ac0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_019d0001-00ac0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "019d000100ac0502.png"
+  },
+  {
+    "id": "019e000100ad0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_019e0001-00ad0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "019e000100ad0502.png"
+  },
+  {
+    "id": "01b6000100ae0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01b60001-00ae0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01b6000100ae0502.png"
+  },
+  {
+    "id": "0186010100af0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01860101-00af0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0186010100af0502.png"
+  },
+  {
+    "id": "0195000100b00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01950001-00b00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0195000100b00502.png"
+  },
+  {
+    "id": "0198000100b10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01980001-00b10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0198000100b10502.png"
+  },
+  {
+    "id": "01b1000100b20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01b10001-00b20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01b1000100b20502.png"
+  },
+  {
+    "id": "018f000100b30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018f0001-00b30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "018f000100b30502.png"
+  },
+  {
+    "id": "0181010100b40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01810101-00b40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0181010100b40502.png"
+  },
+  {
+    "id": "01b3000100b50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01b30001-00b50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01b3000100b50502.png"
+  },
+  {
+    "id": "019b000100b60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_019b0001-00b60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "019b000100b60502.png"
+  },
+  {
+    "id": "019a000100b70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_019a0001-00b70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "019a000100b70502.png"
+  },
+  {
+    "id": "01ad000100b80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01ad0001-00b80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01ad000100b80502.png"
+  },
+  {
+    "id": "027f000100b90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_027f0001-00b90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "027f000100b90502.png"
+  },
+  {
+    "id": "026e000100ba0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_026e0001-00ba0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "026e000100ba0502.png"
+  },
+  {
+    "id": "03c1000100bb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03c10001-00bb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03c1000100bb0502.png"
+  },
+  {
+    "id": "032d000100bc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_032d0001-00bc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "032d000100bc0502.png"
+  },
+  {
+    "id": "023c000100bd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_023c0001-00bd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "023c000100bd0502.png"
+  },
+  {
+    "id": "02dc000100be0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02dc0001-00be0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02dc000100be0502.png"
+  },
+  {
+    "id": "0398000100bf0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03980001-00bf0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0398000100bf0502.png"
+  },
+  {
+    "id": "0464000100c00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04640001-00c00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0464000100c00502.png"
+  },
+  {
+    "id": "0251000100c10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02510001-00c10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0251000100c10502.png"
+  },
+  {
+    "id": "03d1000100c20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03d10001-00c20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03d1000100c20502.png"
+  },
+  {
+    "id": "026c000100c30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_026c0001-00c30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "026c000100c30502.png"
+  },
+  {
+    "id": "02b2000100c40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02b20001-00c40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02b2000100c40502.png"
+  },
+  {
+    "id": "0344000100c50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03440001-00c50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0344000100c50502.png"
+  },
+  {
+    "id": "0309000100c60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03090001-00c60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0309000100c60502.png"
+  },
+  {
+    "id": "0283000100c70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02830001-00c70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0283000100c70502.png"
+  },
+  {
+    "id": "03a6000100c80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03a60001-00c80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03a6000100c80502.png"
+  },
+  {
+    "id": "035d000100c90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_035d0001-00c90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "035d000100c90502.png"
+  },
+  {
+    "id": "0440000100ca0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04400001-00ca0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0440000100ca0502.png"
+  },
+  {
+    "id": "029b000100cb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_029b0001-00cb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "029b000100cb0502.png"
+  },
+  {
+    "id": "02f2000100cc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02f20001-00cc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02f2000100cc0502.png"
+  },
+  {
+    "id": "02c9000100cd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02c90001-00cd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02c9000100cd0502.png"
+  },
+  {
+    "id": "04de000100ce0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04de0001-00ce0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04de000100ce0502.png"
+  },
+  {
+    "id": "0450000100cf0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04500001-00cf0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0450000100cf0502.png"
+  },
+  {
+    "id": "03fa000100d00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03fa0001-00d00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03fa000100d00502.png"
+  },
+  {
+    "id": "023e000100d10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_023e0001-00d10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "023e000100d10502.png"
+  },
+  {
+    "id": "0260000100d20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02600001-00d20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0260000100d20502.png"
+  },
+  {
+    "id": "0369000100d30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03690001-00d30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0369000100d30502.png"
+  },
+  {
+    "id": "04a4000100d40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a40001-00d40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04a4000100d40502.png"
+  },
+  {
+    "id": "0381000100d50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03810001-00d50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0381000100d50502.png"
+  },
+  {
+    "id": "0311000100d60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03110001-00d60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0311000100d60502.png"
+  },
+  {
+    "id": "050e000100d70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_050e0001-00d70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "050e000100d70502.png"
+  },
+  {
+    "id": "0418000100d80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04180001-00d80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0418000100d80502.png"
+  },
+  {
+    "id": "0496000100d90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04960001-00d90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0496000100d90502.png"
+  },
+  {
+    "id": "021a000100da0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_021a0001-00da0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "021a000100da0502.png"
+  },
+  {
+    "id": "04ce000100db0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ce0001-00db0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04ce000100db0502.png"
+  },
+  {
+    "id": "02c3000100dc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02c30001-00dc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02c3000100dc0502.png"
+  },
+  {
+    "id": "04b3000100dd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04b30001-00dd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04b3000100dd0502.png"
+  },
+  {
+    "id": "02eb000100de0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02eb0001-00de0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02eb000100de0502.png"
+  },
+  {
+    "id": "0499000100df0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04990001-00df0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0499000100df0502.png"
+  },
+  {
+    "id": "041a000100e00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_041a0001-00e00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "041a000100e00502.png"
+  },
+  {
+    "id": "04cf000100e10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04cf0001-00e10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04cf000100e10502.png"
+  },
+  {
+    "id": "02d8000100e20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02d80001-00e20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02d8000100e20502.png"
+  },
+  {
+    "id": "028b000100e30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_028b0001-00e30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "028b000100e30502.png"
+  },
+  {
+    "id": "0214000100e40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02140001-00e40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0214000100e40502.png"
+  },
+  {
+    "id": "03d2000100e50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03d20001-00e50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03d2000100e50502.png"
+  },
+  {
+    "id": "03aa000100e60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03aa0001-00e60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03aa000100e60502.png"
+  },
+  {
+    "id": "0500000100e70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_05000001-00e70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0500000100e70502.png"
+  },
+  {
+    "id": "04df000100e80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04df0001-00e80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04df000100e80502.png"
+  },
+  {
+    "id": "026b000100e90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_026b0001-00e90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "026b000100e90502.png"
+  },
+  {
+    "id": "02dd000100ea0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02dd0001-00ea0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02dd000100ea0502.png"
+  },
+  {
+    "id": "0357000100eb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03570001-00eb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0357000100eb0502.png"
+  },
+  {
+    "id": "03e6000100ec0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03e60001-00ec0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03e6000100ec0502.png"
+  },
+  {
+    "id": "049d000100ed0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_049d0001-00ed0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "049d000100ed0502.png"
+  },
+  {
+    "id": "029a000100ee0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_029a0001-00ee0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "029a000100ee0502.png"
+  },
+  {
+    "id": "0489000100ef0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04890001-00ef0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0489000100ef0502.png"
+  },
+  {
+    "id": "03b1000100f00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03b10001-00f00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03b1000100f00502.png"
+  },
+  {
+    "id": "041b000100f10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_041b0001-00f10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "041b000100f10502.png"
+  },
+  {
+    "id": "022d000100f20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_022d0001-00f20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "022d000100f20502.png"
+  },
+  {
+    "id": "046d000100f30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_046d0001-00f30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "046d000100f30502.png"
+  },
+  {
+    "id": "03ff000100f40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ff0001-00f40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03ff000100f40502.png"
+  },
+  {
+    "id": "047b000100f50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_047b0001-00f50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "047b000100f50502.png"
+  },
+  {
+    "id": "0462000100f60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04620001-00f60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0462000100f60502.png"
+  },
+  {
+    "id": "04e0000100f70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e00001-00f70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e0000100f70502.png"
+  },
+  {
+    "id": "0310000100f80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03100001-00f80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0310000100f80502.png"
+  },
+  {
+    "id": "03bd000100f90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03bd0001-00f90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03bd000100f90502.png"
+  },
+  {
+    "id": "033b000100fa0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_033b0001-00fa0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "033b000100fa0502.png"
+  },
+  {
+    "id": "0416000100fb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04160001-00fb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0416000100fb0502.png"
+  },
+  {
+    "id": "0486000100fc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04860001-00fc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0486000100fc0502.png"
+  },
+  {
+    "id": "0220000100fd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02200001-00fd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0220000100fd0502.png"
+  },
+  {
+    "id": "0252000100fe0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02520001-00fe0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0252000100fe0502.png"
+  },
+  {
+    "id": "0270000100ff0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02700001-00ff0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0270000100ff0502.png"
+  },
+  {
+    "id": "033c000101000502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_033c0001-01000502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "033c000101000502.png"
+  },
+  {
+    "id": "04c5000101010502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04c50001-01010502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04c5000101010502.png"
+  },
+  {
+    "id": "02f9000101020502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02f90001-01020502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02f9000101020502.png"
+  },
+  {
+    "id": "0202000101030502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02020001-01030502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0202000101030502.png"
+  },
+  {
+    "id": "0453000101040502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04530001-01040502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0453000101040502.png"
+  },
+  {
+    "id": "0437000101050502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04370001-01050502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0437000101050502.png"
+  },
+  {
+    "id": "0385000101060502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03850001-01060502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0385000101060502.png"
+  },
+  {
+    "id": "0510000101070502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_05100001-01070502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0510000101070502.png"
+  },
+  {
+    "id": "0267000101080502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02670001-01080502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0267000101080502.png"
+  },
+  {
+    "id": "04e2000101090502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e20001-01090502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e2000101090502.png"
+  },
+  {
+    "id": "03250001010a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03250001-010a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03250001010a0502.png"
+  },
+  {
+    "id": "03720001010b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03720001-010b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03720001010b0502.png"
+  },
+  {
+    "id": "018d0001010c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018d0001-010c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "018d0001010c0502.png"
+  },
+  {
+    "id": "01920001010d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01920001-010d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01920001010d0502.png"
+  },
+  {
+    "id": "01830101010e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01830101-010e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01830101010e0502.png"
+  },
+  {
+    "id": "01a00001010f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a00001-010f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01a00001010f0502.png"
+  },
+  {
+    "id": "01a1000101100502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a10001-01100502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01a1000101100502.png"
+  },
+  {
+    "id": "019f000101110502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_019f0001-01110502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "019f000101110502.png"
+  },
+  {
+    "id": "0188000101120502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01880001-01120502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0188000101120502.png"
+  },
+  {
+    "id": "01b4000101130502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01b40001-01130502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01b4000101130502.png"
+  },
+  {
+    "id": "01a7000101140502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a70001-01140502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01a7000101140502.png"
+  },
+  {
+    "id": "018b000101150502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018b0001-01150502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "018b000101150502.png"
+  },
+  {
+    "id": "0199000101160502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01990001-01160502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0199000101160502.png"
+  },
+  {
+    "id": "0185020101170502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01850201-01170502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0185020101170502.png"
+  },
+  {
+    "id": "018c010101180502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018c0101-01180502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "018c010101180502.png"
+  },
+  {
+    "id": "018f010101190502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018f0101-01190502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "018f010101190502.png"
+  },
+  {
+    "id": "01810201011a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01810201-011a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01810201011a0502.png"
+  },
+  {
+    "id": "01ae0001011b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01ae0001-011b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01ae0001011b0502.png"
+  },
+  {
+    "id": "01af0001011c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01af0001-011c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01af0001011c0502.png"
+  },
+  {
+    "id": "03380001011d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03380001-011d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03380001011d0502.png"
+  },
+  {
+    "id": "022f0001011e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_022f0001-011e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "022f0001011e0502.png"
+  },
+  {
+    "id": "02690001011f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02690001-011f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02690001011f0502.png"
+  },
+  {
+    "id": "0281000101200502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02810001-01200502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0281000101200502.png"
+  },
+  {
+    "id": "0313000101210502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03130001-01210502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0313000101210502.png"
+  },
+  {
+    "id": "02c7000101220502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02c70001-01220502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02c7000101220502.png"
+  },
+  {
+    "id": "021e000101230502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_021e0001-01230502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "021e000101230502.png"
+  },
+  {
+    "id": "02a6000101240502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02a60001-01240502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02a6000101240502.png"
+  },
+  {
+    "id": "025e000101250502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_025e0001-01250502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "025e000101250502.png"
+  },
+  {
+    "id": "024b000101260502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_024b0001-01260502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "024b000101260502.png"
+  },
+  {
+    "id": "0392000101270502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03920001-01270502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0392000101270502.png"
+  },
+  {
+    "id": "0342000101280502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03420001-01280502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0342000101280502.png"
+  },
+  {
+    "id": "035c000101290502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_035c0001-01290502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "035c000101290502.png"
+  },
+  {
+    "id": "03e70001012a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03e70001-012a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03e70001012a0502.png"
+  },
+  {
+    "id": "03c40001012b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03c40001-012b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03c40001012b0502.png"
+  },
+  {
+    "id": "03af0001012c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03af0001-012c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03af0001012c0502.png"
+  },
+  {
+    "id": "042a0001012d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_042a0001-012d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "042a0001012d0502.png"
+  },
+  {
+    "id": "047d0001012e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_047d0001-012e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "047d0001012e0502.png"
+  },
+  {
+    "id": "030e0001012f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_030e0001-012f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "030e0001012f0502.png"
+  },
+  {
+    "id": "02d7000101300502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02d70001-01300502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02d7000101300502.png"
+  },
+  {
+    "id": "0463000101310502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04630001-01310502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0463000101310502.png"
+  },
+  {
+    "id": "04e7000101320502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e70001-01320502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e7000101320502.png"
+  },
+  {
+    "id": "02da000101330502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02da0001-01330502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02da000101330502.png"
+  },
+  {
+    "id": "0373000101340502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03730001-01340502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0373000101340502.png"
+  },
+  {
+    "id": "0356000101350502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03560001-01350502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0356000101350502.png"
+  },
+  {
+    "id": "02cb000101360502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02cb0001-01360502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02cb000101360502.png"
+  },
+  {
+    "id": "0262000101370502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02620001-01370502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0262000101370502.png"
+  },
+  {
+    "id": "02f8000101380502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02f80001-01380502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02f8000101380502.png"
+  },
+  {
+    "id": "0326000101390502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03260001-01390502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0326000101390502.png"
+  },
+  {
+    "id": "033d0001013a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_033d0001-013a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "033d0001013a0502.png"
+  },
+  {
+    "id": "04ef0001013b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ef0001-013b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04ef0001013b0502.png"
+  },
+  {
+    "id": "02210001013c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02210001-013c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02210001013c0502.png"
+  },
+  {
+    "id": "029e0001013d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_029e0001-013d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "029e0001013d0502.png"
+  },
+  {
+    "id": "028c0001013e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_028c0001-013e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "028c0001013e0502.png"
+  },
+  {
+    "id": "026d0001013f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_026d0001-013f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "026d0001013f0502.png"
+  },
+  {
+    "id": "049c000101400502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_049c0001-01400502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "049c000101400502.png"
+  },
+  {
+    "id": "041c000101410502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_041c0001-01410502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "041c000101410502.png"
+  },
+  {
+    "id": "050d000101420502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_050d0001-01420502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "050d000101420502.png"
+  },
+  {
+    "id": "034a000101430502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_034a0001-01430502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "034a000101430502.png"
+  },
+  {
+    "id": "0222000101440502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02220001-01440502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0222000101440502.png"
+  },
+  {
+    "id": "02f1000101450502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02f10001-01450502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02f1000101450502.png"
+  },
+  {
+    "id": "026a000101460502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_026a0001-01460502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "026a000101460502.png"
+  },
+  {
+    "id": "03fc000101470502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03fc0001-01470502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03fc000101470502.png"
+  },
+  {
+    "id": "032c000101480502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_032c0001-01480502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "032c000101480502.png"
+  },
+  {
+    "id": "043e000101490502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_043e0001-01490502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "043e000101490502.png"
+  },
+  {
+    "id": "04980001014a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04980001-014a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04980001014a0502.png"
+  },
+  {
+    "id": "04ee0001014b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ee0001-014b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04ee0001014b0502.png"
+  },
+  {
+    "id": "04850001014c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04850001-014c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04850001014c0502.png"
+  },
+  {
+    "id": "03080001014d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03080001-014d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03080001014d0502.png"
+  },
+  {
+    "id": "049a0001014e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_049a0001-014e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "049a0001014e0502.png"
+  },
+  {
+    "id": "03a40001014f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03a40001-014f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03a40001014f0502.png"
+  },
+  {
+    "id": "040f000101500502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_040f0001-01500502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "040f000101500502.png"
+  },
+  {
+    "id": "03da000101510502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03da0001-01510502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03da000101510502.png"
+  },
+  {
+    "id": "04cd000101520502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04cd0001-01520502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04cd000101520502.png"
+  },
+  {
+    "id": "0514000101530502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_05140001-01530502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0514000101530502.png"
+  },
+  {
+    "id": "0265000101540502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02650001-01540502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0265000101540502.png"
+  },
+  {
+    "id": "043f000101550502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_043f0001-01550502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "043f000101550502.png"
+  },
+  {
+    "id": "037e000101560502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_037e0001-01560502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "037e000101560502.png"
+  },
+  {
+    "id": "03d6000101570502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03d60001-01570502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03d6000101570502.png"
+  },
+  {
+    "id": "03fd000101580502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03fd0001-01580502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03fd000101580502.png"
+  },
+  {
+    "id": "040c000101590502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_040c0001-01590502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "040c000101590502.png"
+  },
+  {
+    "id": "02ed0001015a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02ed0001-015a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02ed0001015a0502.png"
+  },
+  {
+    "id": "03a50001015b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03a50001-015b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03a50001015b0502.png"
+  },
+  {
+    "id": "03c50001015c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03c50001-015c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03c50001015c0502.png"
+  },
+  {
+    "id": "03700001015d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03700001-015d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03700001015d0502.png"
+  },
+  {
+    "id": "04510001015e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04510001-015e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04510001015e0502.png"
+  },
+  {
+    "id": "041e0001015f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_041e0001-015f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "041e0001015f0502.png"
+  },
+  {
+    "id": "04b9000101600502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04b90001-01600502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04b9000101600502.png"
+  },
+  {
+    "id": "0461000101610502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04610001-01610502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0461000101610502.png"
+  },
+  {
+    "id": "04ff000101620502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ff0001-01620502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04ff000101620502.png"
+  },
+  {
+    "id": "0478000101630502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04780001-01630502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0478000101630502.png"
+  },
+  {
+    "id": "0469000101640502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04690001-01640502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0469000101640502.png"
+  },
+  {
+    "id": "04e3000101650502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e30001-01650502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e3000101650502.png"
+  },
+  {
+    "id": "023f000101660502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_023f0001-01660502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "023f000101660502.png"
+  },
+  {
+    "id": "04c6000101670502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04c60001-01670502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04c6000101670502.png"
+  },
+  {
+    "id": "04fa000101680502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04fa0001-01680502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04fa000101680502.png"
+  },
+  {
+    "id": "027e000101690502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_027e0001-01690502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "027e000101690502.png"
+  },
+  {
+    "id": "02010001016a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02010001-016a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02010001016a0502.png"
+  },
+  {
+    "id": "03820001016b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03820001-016b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03820001016b0502.png"
+  },
+  {
+    "id": "044b0001016c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_044b0001-016c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "044b0001016c0502.png"
+  },
+  {
+    "id": "030f0001016d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_030f0001-016d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "030f0001016d0502.png"
+  },
+  {
+    "id": "04a00001016e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a00001-016e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04a00001016e0502.png"
+  },
+  {
+    "id": "04a10001016f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a10001-016f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04a10001016f0502.png"
+  },
+  {
+    "id": "0181030101700502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01810301-01700502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0181030101700502.png"
+  },
+  {
+    "id": "0190000101710502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01900001-01710502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0190000101710502.png"
+  },
+  {
+    "id": "01a5000101720502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a50001-01720502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01a5000101720502.png"
+  },
+  {
+    "id": "019c000101730502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_019c0001-01730502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "019c000101730502.png"
+  },
+  {
+    "id": "0193000101740502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01930001-01740502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0193000101740502.png"
+  },
+  {
+    "id": "0186030101750502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01860301-01750502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0186030101750502.png"
+  },
+  {
+    "id": "01a9000101760502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a90001-01760502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01a9000101760502.png"
+  },
+  {
+    "id": "0197000101770502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01970001-01770502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0197000101770502.png"
+  },
+  {
+    "id": "018e010101780502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_018e0101-01780502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "018e010101780502.png"
+  },
+  {
+    "id": "0185040101790502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01850401-01790502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0185040101790502.png"
+  },
+  {
+    "id": "01c10101017a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01c10101-017a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01c10101017a0502.png"
+  },
+  {
+    "id": "01b10101017b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01b10101-017b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01b10101017b0502.png"
+  },
+  {
+    "id": "01ab0001017c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01ab0001-017c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01ab0001017c0502.png"
+  },
+  {
+    "id": "01a20001017d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a20001-017d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01a20001017d0502.png"
+  },
+  {
+    "id": "01a80101017e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a80101-017e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01a80101017e0502.png"
+  },
+  {
+    "id": "01ac0001017f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01ac0001-017f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "01ac0001017f0502.png"
+  },
+  {
+    "id": "02ea000101800502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02ea0001-01800502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02ea000101800502.png"
+  },
+  {
+    "id": "0282000101810502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02820001-01810502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0282000101810502.png"
+  },
+  {
+    "id": "0215000101820502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02150001-01820502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0215000101820502.png"
+  },
+  {
+    "id": "03ec000101830502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ec0001-01830502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03ec000101830502.png"
+  },
+  {
+    "id": "030d000101840502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_030d0001-01840502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "030d000101840502.png"
+  },
+  {
+    "id": "0390000101850502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03900001-01850502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0390000101850502.png"
+  },
+  {
+    "id": "0272000101860502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02720001-01860502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0272000101860502.png"
+  },
+  {
+    "id": "0380000101870502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03800001-01870502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0380000101870502.png"
+  },
+  {
+    "id": "03ac000101880502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ac0001-01880502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03ac000101880502.png"
+  },
+  {
+    "id": "0324000101890502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03240001-01890502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0324000101890502.png"
+  },
+  {
+    "id": "041d0001018a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_041d0001-018a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "041d0001018a0502.png"
+  },
+  {
+    "id": "036b0001018b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_036b0001-018b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "036b0001018b0502.png"
+  },
+  {
+    "id": "02a50001018c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02a50001-018c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02a50001018c0502.png"
+  },
+  {
+    "id": "03490001018d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03490001-018d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03490001018d0502.png"
+  },
+  {
+    "id": "035e0001018e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_035e0001-018e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "035e0001018e0502.png"
+  },
+  {
+    "id": "02fc0001018f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02fc0001-018f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02fc0001018f0502.png"
+  },
+  {
+    "id": "026f000101900502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_026f0001-01900502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "026f000101900502.png"
+  },
+  {
+    "id": "02df000101910502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02df0001-01910502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02df000101910502.png"
+  },
+  {
+    "id": "0495000101920502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04950001-01920502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0495000101920502.png"
+  },
+  {
+    "id": "044d000101930502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_044d0001-01930502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "044d000101930502.png"
+  },
+  {
+    "id": "0436000101940502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04360001-01940502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0436000101940502.png"
+  },
+  {
+    "id": "0511000101950502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_05110001-01950502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0511000101950502.png"
+  },
+  {
+    "id": "04d0000101960502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04d00001-01960502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04d0000101960502.png"
+  },
+  {
+    "id": "046b000101970502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_046b0001-01970502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "046b000101970502.png"
+  },
+  {
+    "id": "03be000101980502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03be0001-01980502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03be000101980502.png"
+  },
+  {
+    "id": "02ee000101990502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02ee0001-01990502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02ee000101990502.png"
+  },
+  {
+    "id": "02030001019a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02030001-019a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02030001019a0502.png"
+  },
+  {
+    "id": "02710001019b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02710001-019b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02710001019b0502.png"
+  },
+  {
+    "id": "02b80001019c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02b80001-019c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02b80001019c0502.png"
+  },
+  {
+    "id": "036a0001019d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_036a0001-019d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "036a0001019d0502.png"
+  },
+  {
+    "id": "028e0001019e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_028e0001-019e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "028e0001019e0502.png"
+  },
+  {
+    "id": "02090001019f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02090001-019f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02090001019f0502.png"
+  },
+  {
+    "id": "047c000101a00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_047c0001-01a00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "047c000101a00502.png"
+  },
+  {
+    "id": "03a7000101a10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03a70001-01a10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03a7000101a10502.png"
+  },
+  {
+    "id": "033e000101a20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_033e0001-01a20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "033e000101a20502.png"
+  },
+  {
+    "id": "03ed000101a30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ed0001-01a30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03ed000101a30502.png"
+  },
+  {
+    "id": "03fe000101a40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03fe0001-01a40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03fe000101a40502.png"
+  },
+  {
+    "id": "03d9000101a50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03d90001-01a50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03d9000101a50502.png"
+  },
+  {
+    "id": "04a7000101a60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a70001-01a60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04a7000101a60502.png"
+  },
+  {
+    "id": "04d2000101a70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04d20001-01a70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04d2000101a70502.png"
+  },
+  {
+    "id": "045f000101a80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_045f0001-01a80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "045f000101a80502.png"
+  },
+  {
+    "id": "03b0000101a90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03b00001-01a90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03b0000101a90502.png"
+  },
+  {
+    "id": "037f000101aa0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_037f0001-01aa0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "037f000101aa0502.png"
+  },
+  {
+    "id": "0411000101ab0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04110001-01ab0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0411000101ab0502.png"
+  },
+  {
+    "id": "0264000101ac0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02640001-01ac0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0264000101ac0502.png"
+  },
+  {
+    "id": "04e5000101ad0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e50001-01ad0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e5000101ad0502.png"
+  },
+  {
+    "id": "0454000101ae0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04540001-01ae0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0454000101ae0502.png"
+  },
+  {
+    "id": "042b000101af0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_042b0001-01af0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "042b000101af0502.png"
+  },
+  {
+    "id": "0483000101b00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04830001-01b00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0483000101b00502.png"
+  },
+  {
+    "id": "0339000101b10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03390001-01b10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0339000101b10502.png"
+  },
+  {
+    "id": "03ad000101b20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ad0001-01b20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03ad000101b20502.png"
+  },
+  {
+    "id": "0217000101b30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02170001-01b30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0217000101b30502.png"
+  },
+  {
+    "id": "03d7000101b40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03d70001-01b40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03d7000101b40502.png"
+  },
+  {
+    "id": "023d000101b50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_023d0001-01b50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "023d000101b50502.png"
+  },
+  {
+    "id": "04e4000101b60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e40001-01b60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e4000101b60502.png"
+  },
+  {
+    "id": "049e000101b70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_049e0001-01b70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "049e000101b70502.png"
+  },
+  {
+    "id": "030c000101b80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_030c0001-01b80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "030c000101b80502.png"
+  },
+  {
+    "id": "04b2000101b90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04b20001-01b90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04b2000101b90502.png"
+  },
+  {
+    "id": "02a2000101ba0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02a20001-01ba0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02a2000101ba0502.png"
+  },
+  {
+    "id": "0415000101bb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04150001-01bb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0415000101bb0502.png"
+  },
+  {
+    "id": "03bf000101bc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03bf0001-01bc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03bf000101bc0502.png"
+  },
+  {
+    "id": "028d000101bd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_028d0001-01bd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "028d000101bd0502.png"
+  },
+  {
+    "id": "04e1000101be0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e10001-01be0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e1000101be0502.png"
+  },
+  {
+    "id": "0487000101bf0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04870001-01bf0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0487000101bf0502.png"
+  },
+  {
+    "id": "0316000101c00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03160001-01c00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0316000101c00502.png"
+  },
+  {
+    "id": "050c000101c10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_050c0001-01c10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "050c000101c10502.png"
+  },
+  {
+    "id": "0399000101c20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03990001-01c20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0399000101c20502.png"
+  },
+  {
+    "id": "0327000101c30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03270001-01c30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0327000101c30502.png"
+  },
+  {
+    "id": "02ec000101c40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02ec0001-01c40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02ec000101c40502.png"
+  },
+  {
+    "id": "025f000101c50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_025f0001-01c50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "025f000101c50502.png"
+  },
+  {
+    "id": "04fb000101c60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04fb0001-01c60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04fb000101c60502.png"
+  },
+  {
+    "id": "030a000101c70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_030a0001-01c70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "030a000101c70502.png"
+  },
+  {
+    "id": "02d9000101c80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02d90001-01c80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02d9000101c80502.png"
+  },
+  {
+    "id": "04a3000101c90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a30001-01c90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04a3000101c90502.png"
+  },
+  {
+    "id": "02ca000101ca0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02ca0001-01ca0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "02ca000101ca0502.png"
+  },
+  {
+    "id": "043c000101cb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_043c0001-01cb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "043c000101cb0502.png"
+  },
+  {
+    "id": "033a000101cc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_033a0001-01cc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "033a000101cc0502.png"
+  },
+  {
+    "id": "021d000101cd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_021d0001-01cd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "021d000101cd0502.png"
+  },
+  {
+    "id": "04e8000101ce0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04e80001-01ce0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "04e8000101ce0502.png"
+  },
+  {
+    "id": "03fb000101cf0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03fb0001-01cf0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "03fb000101cf0502.png"
+  },
+  {
+    "id": "046a000101d00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_046a0001-01d00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "046a000101d00502.png"
+  },
+  {
+    "id": "024a000101d10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_024a0001-01d10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "024a000101d10502.png"
+  },
+  {
+    "id": "0230000101d20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02300001-01d20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "0230000101d20502.png"
+  },
+  {
+    "id": "022e000101d30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_022e0001-01d30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 276,
+    "height": 388,
+    "filename": "022e000101d30502.png"
+  },
+  {
+    "id": "0183020103a80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01830201-03a80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0183020103a80502.png"
+  },
+  {
+    "id": "0184050103a90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01840501-03a90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0184050103a90502.png"
+  },
+  {
+    "id": "0181040103aa0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01810401-03aa0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0181040103aa0502.png"
+  },
+  {
+    "id": "0a00000103ab0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a000001-03ab0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a00000103ab0502.png"
+  },
+  {
+    "id": "0a01000103ac0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a010001-03ac0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a01000103ac0502.png"
+  },
+  {
+    "id": "0192000103ad0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01920001-03ad0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0192000103ad0502.png"
+  },
+  {
+    "id": "0193000103ae0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01930001-03ae0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0193000103ae0502.png"
+  },
+  {
+    "id": "0188000103af0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01880001-03af0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0188000103af0502.png"
+  },
+  {
+    "id": "0187000103b00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01870001-03b00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0187000103b00502.png"
+  },
+  {
+    "id": "0189010103b10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01890101-03b10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0189010103b10502.png"
+  },
+  {
+    "id": "0182000103b20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01820001-03b20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0182000103b20502.png"
+  },
+  {
+    "id": "0a02000103b30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a020001-03b30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a02000103b30502.png"
+  },
+  {
+    "id": "0a03000103b40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a030001-03b40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a03000103b40502.png"
+  },
+  {
+    "id": "0a04000103b50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a040001-03b50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a04000103b50502.png"
+  },
+  {
+    "id": "0194000103b60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01940001-03b60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0194000103b60502.png"
+  },
+  {
+    "id": "01a6000103b70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a60001-03b70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "01a6000103b70502.png"
+  },
+  {
+    "id": "0a05000103b80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a050001-03b80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a05000103b80502.png"
+  },
+  {
+    "id": "01a2000103b90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01a20001-03b90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "01a2000103b90502.png"
+  },
+  {
+    "id": "0a06000103ba0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a060001-03ba0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a06000103ba0502.png"
+  },
+  {
+    "id": "01c1020103bb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01c10201-03bb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "01c1020103bb0502.png"
+  },
+  {
+    "id": "0a07000103bc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a070001-03bc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a07000103bc0502.png"
+  },
+  {
+    "id": "0a08000103bd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a080001-03bd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a08000103bd0502.png"
+  },
+  {
+    "id": "0183030103be0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01830301-03be0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0183030103be0502.png"
+  },
+  {
+    "id": "0181050103bf0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01810501-03bf0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0181050103bf0502.png"
+  },
+  {
+    "id": "0a09000103c00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a090001-03c00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a09000103c00502.png"
+  },
+  {
+    "id": "0a0a000103c10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a0a0001-03c10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a0a000103c10502.png"
+  },
+  {
+    "id": "0a0b000103c20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a0b0001-03c20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a0b000103c20502.png"
+  },
+  {
+    "id": "0a0c000103c30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a0c0001-03c30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a0c000103c30502.png"
+  },
+  {
+    "id": "0a0d000103c40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a0d0001-03c40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a0d000103c40502.png"
+  },
+  {
+    "id": "0a0e000103c50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a0e0001-03c50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a0e000103c50502.png"
+  },
+  {
+    "id": "0a0f000103c60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a0f0001-03c60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a0f000103c60502.png"
+  },
+  {
+    "id": "0a10000103c70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a100001-03c70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a10000103c70502.png"
+  },
+  {
+    "id": "0a11000103c80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a110001-03c80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a11000103c80502.png"
+  },
+  {
+    "id": "0a12000103c90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a120001-03c90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a12000103c90502.png"
+  },
+  {
+    "id": "0a13000103ca0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a130001-03ca0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a13000103ca0502.png"
+  },
+  {
+    "id": "0a14000103cb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a140001-03cb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a14000103cb0502.png"
+  },
+  {
+    "id": "0a15000103cc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a150001-03cc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a15000103cc0502.png"
+  },
+  {
+    "id": "0a16000103cd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a160001-03cd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a16000103cd0502.png"
+  },
+  {
+    "id": "0a17000103ce0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a170001-03ce0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a17000103ce0502.png"
+  },
+  {
+    "id": "0a18000103cf0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a180001-03cf0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a18000103cf0502.png"
+  },
+  {
+    "id": "0a19000103d00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a190001-03d00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a19000103d00502.png"
+  },
+  {
+    "id": "0a1a000103d10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a1a0001-03d10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a1a000103d10502.png"
+  },
+  {
+    "id": "0a1b000103d20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a1b0001-03d20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a1b000103d20502.png"
+  },
+  {
+    "id": "0a1c000103d30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a1c0001-03d30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a1c000103d30502.png"
+  },
+  {
+    "id": "0a1d000103d40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a1d0001-03d40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a1d000103d40502.png"
+  },
+  {
+    "id": "0a1e000103d50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a1e0001-03d50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a1e000103d50502.png"
+  },
+  {
+    "id": "0a1f000103d60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a1f0001-03d60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a1f000103d60502.png"
+  },
+  {
+    "id": "0a20000103d70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_0a200001-03d70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 230,
+    "height": 322,
+    "filename": "0a20000103d70502.png"
+  },
+  {
+    "id": "0513000102e70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_05130001-02e70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0513000102e70502.png"
+  },
+  {
+    "id": "04a2000102e80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a20001-02e80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04a2000102e80502.png"
+  },
+  {
+    "id": "028a000102e90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_028a0001-02e90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "028a000102e90502.png"
+  },
+  {
+    "id": "0232000102ea0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02320001-02ea0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0232000102ea0502.png"
+  },
+  {
+    "id": "0328000102eb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03280001-02eb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0328000102eb0502.png"
+  },
+  {
+    "id": "04b6000102ec0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04b60001-02ec0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04b6000102ec0502.png"
+  },
+  {
+    "id": "04c8000102ed0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04c80001-02ed0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04c8000102ed0502.png"
+  },
+  {
+    "id": "04fc000102ee0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04fc0001-02ee0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04fc000102ee0502.png"
+  },
+  {
+    "id": "0343000102ef0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03430001-02ef0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0343000102ef0502.png"
+  },
+  {
+    "id": "04eb000102f00502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04eb0001-02f00502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04eb000102f00502.png"
+  },
+  {
+    "id": "0481000102f10502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04810001-02f10502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0481000102f10502.png"
+  },
+  {
+    "id": "0468000102f20502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04680001-02f20502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0468000102f20502.png"
+  },
+  {
+    "id": "03d3000102f30502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03d30001-02f30502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "03d3000102f30502.png"
+  },
+  {
+    "id": "0314000102f40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03140001-02f40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0314000102f40502.png"
+  },
+  {
+    "id": "03e8000102f50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03e80001-02f50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "03e8000102f50502.png"
+  },
+  {
+    "id": "024d000102f60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_024d0001-02f60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "024d000102f60502.png"
+  },
+  {
+    "id": "021c000102f70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_021c0001-02f70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "021c000102f70502.png"
+  },
+  {
+    "id": "0238000102f80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02380001-02f80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0238000102f80502.png"
+  },
+  {
+    "id": "02f3000102f90502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02f30001-02f90502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "02f3000102f90502.png"
+  },
+  {
+    "id": "0358000102fa0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03580001-02fa0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0358000102fa0502.png"
+  },
+  {
+    "id": "036e000102fb0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_036e0001-02fb0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "036e000102fb0502.png"
+  },
+  {
+    "id": "0395000102fc0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03950001-02fc0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0395000102fc0502.png"
+  },
+  {
+    "id": "0482000102fd0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04820001-02fd0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0482000102fd0502.png"
+  },
+  {
+    "id": "0284000102fe0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02840001-02fe0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0284000102fe0502.png"
+  },
+  {
+    "id": "02a3000102ff0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02a30001-02ff0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "02a3000102ff0502.png"
+  },
+  {
+    "id": "0438000103000502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04380001-03000502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0438000103000502.png"
+  },
+  {
+    "id": "049f000103010502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_049f0001-03010502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "049f000103010502.png"
+  },
+  {
+    "id": "0347000103020502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03470001-03020502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0347000103020502.png"
+  },
+  {
+    "id": "043b000103030502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_043b0001-03030502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "043b000103030502.png"
+  },
+  {
+    "id": "036d000103040502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_036d0001-03040502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "036d000103040502.png"
+  },
+  {
+    "id": "02f4000103050502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02f40001-03050502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "02f4000103050502.png"
+  },
+  {
+    "id": "0233000103060502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02330001-03060502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0233000103060502.png"
+  },
+  {
+    "id": "032a000103070502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_032a0001-03070502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "032a000103070502.png"
+  },
+  {
+    "id": "02c5000103080502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02c50001-03080502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "02c5000103080502.png"
+  },
+  {
+    "id": "0312000103090502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03120001-03090502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0312000103090502.png"
+  },
+  {
+    "id": "04140001030a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04140001-030a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04140001030a0502.png"
+  },
+  {
+    "id": "03ea0001030b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ea0001-030b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "03ea0001030b0502.png"
+  },
+  {
+    "id": "04b40001030c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04b40001-030c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04b40001030c0502.png"
+  },
+  {
+    "id": "04c90001030d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04c90001-030d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04c90001030d0502.png"
+  },
+  {
+    "id": "03410001030e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03410001-030e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "03410001030e0502.png"
+  },
+  {
+    "id": "02b70001030f0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02b70001-030f0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "02b70001030f0502.png"
+  },
+  {
+    "id": "03c0000103100502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03c00001-03100502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "03c0000103100502.png"
+  },
+  {
+    "id": "0439000103110502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04390001-03110502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0439000103110502.png"
+  },
+  {
+    "id": "0206000103120502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02060001-03120502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0206000103120502.png"
+  },
+  {
+    "id": "0286000103130502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02860001-03130502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "0286000103130502.png"
+  },
+  {
+    "id": "050f000103140502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_050f0001-03140502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "050f000103140502.png"
+  },
+  {
+    "id": "044e000103150502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_044e0001-03150502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "044e000103150502.png"
+  },
+  {
+    "id": "03ab000103160502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03ab0001-03160502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "03ab000103160502.png"
+  },
+  {
+    "id": "021f000103170502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_021f0001-03170502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "021f000103170502.png"
+  },
+  {
+    "id": "04ea000103180502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04ea0001-03180502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 388,
+    "height": 276,
+    "filename": "04ea000103180502.png"
+  },
+  {
+    "id": "0374010103190502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_03740101-03190502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 629,
+    "height": 449,
+    "filename": "0374010103190502.png"
+  },
+  {
+    "id": "028f0101031a0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_028f0101-031a0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 630,
+    "height": 450,
+    "filename": "028f0101031a0502.png"
+  },
+  {
+    "id": "04d30101031b0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04d30101-031b0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 628,
+    "height": 449,
+    "filename": "04d30101031b0502.png"
+  },
+  {
+    "id": "032e0101031c0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_032e0101-031c0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 628,
+    "height": 449,
+    "filename": "032e0101031c0502.png"
+  },
+  {
+    "id": "02e00101031d0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02e00101-031d0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 630,
+    "height": 450,
+    "filename": "02e00101031d0502.png"
+  },
+  {
+    "id": "04a80101031e0502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_04a80101-031e0502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 627,
+    "height": 449,
+    "filename": "04a80101031e0502.png"
+  },
+  {
+    "id": "0282000101d60502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02820001-01d60502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0282000101d60502.png"
+  },
+  {
+    "id": "025f000101d70502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_025f0001-01d70502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "025f000101d70502.png"
+  },
+  {
+    "id": "02ea000101d50502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_02ea0001-01d50502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "02ea000101d50502.png"
+  },
+  {
+    "id": "0181000101d40502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01810001-01d40502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0181000101d40502.png"
+  },
+  {
+    "id": "0182000101d80502",
+    "url": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/6115745c56ff762ce212ced6fbad9ea195d659b3/images/icon_01820001-01d80502.png",
+    "revision": "6115745c56ff762ce212ced6fbad9ea195d659b3",
+    "width": 277,
+    "height": 388,
+    "filename": "0182000101d80502.png"
+  }
+]

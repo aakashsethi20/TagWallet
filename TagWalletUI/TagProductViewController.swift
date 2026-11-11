@@ -51,7 +51,14 @@ class TagProductViewController : UITableViewController {
         if let newlyReadDump = newlyReadDump, !tagProduct.dumps.contains(newlyReadDump) {
             let alert = UIAlertController(title: "Do you want to save this dump?", message: nil, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
-                // todo: Add dump to wallet
+                self.tagProduct.dumps.append(newlyReadDump)
+                if let collection = self.tagProductsCollectionViewContoller,
+                   let index = collection.tagWallet?.tagProducts.firstIndex(where: { $0.id == self.tagProduct.id }) {
+                    collection.tagWallet?.tagProducts[index] = self.tagProduct
+                    collection.saveTagWallet()
+                }
+                self.newlyReadDump = nil
+                self.tableView.reloadData()
             }))
             alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
             present(alert, animated: true, completion: nil)

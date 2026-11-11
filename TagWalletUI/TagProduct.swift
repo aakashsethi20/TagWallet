@@ -10,16 +10,20 @@ import Foundation
 import UIKit
 
 struct TagProduct: Codable {
-    let productSeries: String
-    let character: String
-    let gameSeries: String
-    let imageURL: String
-    let name: String
-    let type: String
-    let head: String
-    let tail: String
-    let dumps: [TagDump]
+    var productSeries: String
+    var character: String
+    var gameSeries: String
+    var imageURL: String
+    var name: String
+    var type: String
+    var head: String
+    var tail: String
+    var dumps: [TagDump]
     
+    var cardNumber: String? = nil
+    var imageAssetName: String? = nil
+    var id: String { (head + tail).lowercased() }
+
     static let imageDataCache = NSCache<NSString, NSData>()
     
     func getImage(completion: @escaping (UIImage?) -> Void) {
@@ -39,6 +43,6 @@ struct TagProduct: Codable {
 
 struct TagWallet: Codable {
     var tagProducts: [TagProduct]
-    let staticKey: TagKey?
-    let dataKey: TagKey?
+    var staticKey: TagKey?
+    var dataKey: TagKey?
 }
