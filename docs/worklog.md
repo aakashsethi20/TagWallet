@@ -123,3 +123,9 @@ User requested stopping at the next checkpoint to continue with a less expensive
 - User requested public GitHub ownership with upstream attribution, preferring a linked fork if safe. Audited upstream: no real key/dump-sized payloads detected. Rewrote only feature history in an isolated candidate; preserved upstream ancestry and MIT credit.
 - Prepared ignored private inputs, metadata-only resource, clean-checkout setup/readme, history/staged audit script, and CI audit. See repository-publication-checkpoint.md for authoritative publication status and limitations.
 - Candidate source passed 22 app tests without private catalog inputs; generator tests passed. Device/NFC verification remains pending. URL import remains unimplemented; download to Files then import.
+
+### Publication completed
+- Public linked fork created: https://github.com/aakashsethi20/TagWallet; parent kevinbrewster/TagWallet; default main. Sanitized source commit 62d88c9. Upstream MIT credit retained.
+- History/staged audits passed before committing/pushing; GitHub audit CI passed. Final source validation: 22 XCTest tests, seven Python tests, unsigned iOS build passed.
+- Current checkout now uses sanitized history with origin pointing to the fork and original upstream fetch-only. Old private history is outside the repo at /private/tmp/TagWallet-original-private.git. Private local catalog and personal project settings preserved. Old feature hashes elsewhere in this log refer to pre-rewrite private history.
+- Phone NFC verification and URL import remain pending; URL import was not part of this sanitization. See repository-publication-checkpoint.md for completed status and audit limitations.

@@ -12,9 +12,18 @@
 - Candidate source passed 22 XCTest tests using only the example and synthetic key/dump fixtures. Python generator tests passed. No private catalog is needed to build/test.
 - Added staged/history audit commands and a CI history-audit workflow. Review renamed JSON and other secrets manually too.
 
-## Publication / local migration status
+## Completed publication / local migration
 
-Prepared for public GitHub-linked fork under `aakashsethi20/TagWallet`. Publication and current-workspace remote/history migration are pending until recorded below. No private-history branch or backup ref may be pushed.
+- Public GitHub-linked fork: https://github.com/aakashsethi20/TagWallet (parent: kevinbrewster/TagWallet).
+- Default branch: `main`. Sanitized source preparation commit: `62d88c9`. Rewritten feature commit IDs differ from the historical private-checkpoint IDs in older documents.
+- Published only the sanitized main branch. No original private feature branch, backup refs, or stashes were pushed. Original upstream ancestry remains available for attribution.
+- GitHub Actions private-data audit passed: https://github.com/aakashsethi20/TagWallet/actions/runs/42958205455.
+- Current workspace switched to sanitized history; origin now points to the user's fork. The original repo is retained as fetch-only upstream, with pushes disabled locally.
+- Original private Git directory retained outside the repository at `/private/tmp/TagWallet-original-private.git` for rollback. It contains private history and must never be pushed. This temporary backup is not a durable archive.
+- Local ignored catalog left on disk; personal project settings reapplied and remain uncommitted. No private catalog resource is bundled by the new project configuration.
+- Validation: 22 XCTest tests passed with example-only catalog; seven Python tests passed; unsigned generic iOS build passed. Reachable sanitized history audit after preparation commit: 616 blobs, zero detected violations.
+
+Do not push any old private-history branch or backup ref into this fork.
 
 ## Private inputs and continuing development
 
