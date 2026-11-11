@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct TagProduct: Codable {
+struct TagProduct: Codable, Equatable {
     var productSeries: String
     var character: String
     var gameSeries: String

@@ -1,6 +1,6 @@
 # Importing cards into TagWallet
 
-These instructions describe the implementation at checkpoint `fdd0cb9`. The app currently calls its single list “Christmas batch”; the requested general-purpose Batch/list workflow is not implemented yet.
+These instructions describe the implementation after the saved-list UX follow-up. Open **Lists** in Catalog or Batch to create/select a named list. Add and the post-import batch offer use that remembered active list; with one list, no repeated selection is needed. Membership/resume are per list; completion and Switch-tested history are shared.
 
 ## Choose the right option
 
@@ -20,7 +20,7 @@ BIN/catalog imports add or merge library content and preserve completion history
 2. Open TagWallet → **Library & Backup** → **Import BIN files**.
 3. In the Files picker, select one or more card dump files. Supported lengths are **532 or 540 bytes**; 540-byte dumps are normalized to 532 bytes. Do not choose the 80-byte key files here.
 4. Review “new cards”, “additional dumps”, “duplicate dumps”, and any rejected filenames. Confirm to import the valid subset, or Cancel to leave the library unchanged. If none are valid, nothing is imported.
-5. The app then asks whether to add the imported cards to the current batch. Confirm to add them, or Cancel to keep the imported library content without adding batch membership. This second Cancel does not undo the import.
+5. The app then asks whether to add the imported cards to the active batch. Confirm to add them, or Cancel to keep the imported library content without adding batch membership. This second Cancel does not undo the import.
 6. Find the cards in Catalog. Unknown cards use the filename as their initial name and “Imported” as their series. Open card detail → **Edit character details** or **Choose image** to customize them.
 
 Identity comes from the dump bytes, not the filename. An identical dump already in the library is skipped; a different dump for the same identity is retained as another dump on that card. Import does not mark a card Done. Existing metadata is preserved for matching cards. Imported data is saved inside the app; it does not retain a dependency on the original file.
@@ -34,7 +34,7 @@ If an imported card is not visible, clear search and check status, series, and t
 3. On **Review catalog**, read the new-card/additional-dump/duplicate counts.
 4. Leave **Replace matching metadata and images** off to preserve existing matching metadata and image overrides. Turn it on only when you intend incoming matching metadata/images to take precedence. Distinct dumps are merged either way; cards absent from the file are retained.
 5. If the file includes keys, **Use included keys** appears. It defaults off. Enable it only if you intend to replace corresponding keys with those supplied by the catalog. Missing key slots do not clear existing keys.
-6. Tap **Import**, or **Cancel** before committing. After import, accept or decline the separate offer to add these cards to the current batch.
+6. Tap **Import**, or **Cancel** before committing. After import, accept or decline the separate offer to add these cards to the active batch.
 
 Catalog imports do not import batch/completion history. Unsupported schemas, invalid identities/dumps, or invalid embedded images cause catalog validation to fail; catalog import does not offer the BIN flow's valid-subset import. Files are limited to 500 MB. Embedded PNG/JPEG images are individually limited to 10 MB and 25 megapixels and normalized to at most 1600 pixels on the longest edge without upscaling.
 
@@ -55,4 +55,4 @@ The generated JSON includes both keys from the source installer folder and embed
 
 ## Keep a recoverable copy
 
-Use **Export backup**, confirm, and save the `.tagwalletbackup` outside TagWallet's own folder, such as iCloud Drive. It includes keys, dumps, images, batch, and progress. Use **Restore backup** to recover that full state, reviewing the date/counts before confirming replacement. A catalog is useful for sharing/merging library content; a backup is the file to keep for recovering your full setup.
+Use **Export backup**, confirm, and save the `.tagwalletbackup` outside TagWallet's own folder, such as iCloud Drive. It includes keys, dumps, images, all saved batch lists, the active list, and progress. Use **Restore backup** to recover that full state, reviewing the date/counts before confirming replacement. A catalog is useful for sharing/merging library content; a backup is the file to keep for recovering your full setup.

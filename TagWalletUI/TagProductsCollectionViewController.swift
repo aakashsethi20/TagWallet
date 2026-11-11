@@ -100,7 +100,7 @@ class TagProductsCollectionViewContoller : UIViewController {
         if let search = searchController.searchBar.text?.lowercased(), search != "" {
             filteredTagProducts = filteredTagProducts.filter { $0.productSeries.lowercased().contains(search) || $0.gameSeries.lowercased().contains(search) || $0.name.lowercased().contains(search) }
         }
-        filteredTagProductGroups = Dictionary(grouping: filteredTagProducts, by: { $0.productSeries }).map({ $0 }).sorted(by: { (a, b) -> Bool in
+        filteredTagProductGroups = Dictionary(grouping: filteredTagProducts, by: { $0.productSeries }).map({ (gameSeries: $0.key, tagProducts: $0.value) }).sorted(by: { (a, b) -> Bool in
             a.gameSeries < b.gameSeries
         })
         self.collectionView.reloadData()

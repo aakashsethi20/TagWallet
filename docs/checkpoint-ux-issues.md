@@ -74,3 +74,16 @@ User needs instructions that will still make sense six months later: what BIN an
 4. Re-run phone UX checks, import/backup checks, and the existing automated suite.
 
 No application fixes for these reports have been made as part of this documentation checkpoint.
+
+## Implementation follow-up — 2026-11-10
+
+Code changes are implemented and regression-tested; phone visual acceptance remains pending.
+
+- **UX-01:** tab and prompts now use Batch wording. Multiple named saved lists are supported through **Lists → New batch** in Catalog/Batch. The active list is remembered, and Add targets it directly, including when only one list exists. Existing single-list membership/resume state migrates to “My batch”. Membership and resume are per list; completion/Switch-tested history remains shared across lists and is explained in the list UI. Rename/delete controls are not included in this pass.
+- **UX-02:** unchanged result order keeps existing grid cells/selection; badge titles change only when needed, without button transition animation. Regression verifies cell identity, selection, and queued badges across membership changes. Actual phone flashing requires retest.
+- **UX-03:** sorted catalog is cached and series rank computed once per product when rebuilding the cache; progress changes do not invalidate it. Simulator regression measured 40 warm filter/reset refreshes over the full 509-card catalog at approximately 37 ms total. This excludes full on-screen rendering/device latency and is not a phone performance claim. Large embedded-image snapshot encoding remains synchronous and needs separate profiling if Add/Remove stalls after backup restore.
+- **UX-04/05:** replaced the long filter action sheet with grouped status/type/series rows and selection checkmarks. Changes are local drafts until Apply; Cancel/swipe dismissal discards drafts. “Show all cards (clear filters and search)” clears every restriction. Search now defines its presentation context and dismisses before a separate library sheet is presented. Tests cover draft isolation/reset; interactive dismissal still needs phone verification.
+- **UX-06:** removed navigation-bar prompts from catalog/batch and backup screens; counts now appear in the grid and backup date in a table footer. Filter UI no longer uses the alert/action-sheet width layout shown in the report. No claim that all system messages or other alert warnings are eliminated; correlate a fresh device log.
+- Additional finding: enabled collection-view selection/multiple selection during editing, verified by the stable-cell/selection test.
+
+Validation: 22 XCTest tests passed, final unsigned iOS build passed. See worklog for logs and remaining device checks.

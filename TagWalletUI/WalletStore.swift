@@ -12,10 +12,18 @@ struct CardProgress: Codable {
     var source: String?
     var switchTested = false
 }
+struct SavedBatch: Codable {
+    var id = UUID().uuidString
+    var name: String
+    var cardIDs: [String] = []
+    var currentID: String?
+}
 struct WalletProgress: Codable {
     var batch: [String] = []
     var cards: [String: CardProgress] = [:]
     var currentID: String?
+    var savedBatches: [SavedBatch]?
+    var activeBatchID: String?
 }
 struct LibrarySnapshot: Codable {
     var schemaVersion = 1
@@ -37,13 +45,19 @@ final class WalletStore {
     let directory: URL
     let bundled: TagWallet
     private let imageCache = NSCache<NSString, UIImage>()
+    private var sortedProducts: [TagProduct]?
     var products: [TagProduct] {
-        snapshot.wallet.tagProducts.sorted {
-            let order = ["Series 1", "Series 2", "Series 3", "Series 4", "Series 5", "Welcome Amiibo", "Sanrio", "Promos"]
-            func rank(_ p: TagProduct) -> Int { order.firstIndex(where: { p.productSeries.contains($0) }) ?? 99 }
-            if rank($0) != rank($1) { return rank($0) < rank($1) }
-            return $0.name.localizedStandardCompare($1.name) == .orderedAscending
+        if let sortedProducts = sortedProducts { return sortedProducts }
+        let order = ["Series 1", "Series 2", "Series 3", "Series 4", "Series 5", "Welcome Amiibo", "Sanrio", "Promos"]
+        let ranked = snapshot.wallet.tagProducts.map { product in
+            (product: product, rank: order.firstIndex(where: { product.productSeries.contains($0) }) ?? 99)
         }
+        let result = ranked.sorted {
+            if $0.rank != $1.rank { return $0.rank < $1.rank }
+            return $0.product.name.localizedStandardCompare($1.product.name) == .orderedAscending
+        }.map(\.product)
+        sortedProducts = result
+        return result
     }
     init(directory: URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0], bundled: TagWallet) throws {
         self.directory = directory
@@ -81,7 +95,29 @@ final class WalletStore {
         }
         snapshot.wallet.staticKey = snapshot.wallet.staticKey ?? bundled.staticKey
         snapshot.wallet.dataKey = snapshot.wallet.dataKey ?? bundled.dataKey
+        if snapshot.progress.savedBatches == nil {
+            let first = SavedBatch(name: "My batch", cardIDs: snapshot.progress.batch, currentID: snapshot.progress.currentID)
+            snapshot.progress.savedBatches = [first]; snapshot.progress.activeBatchID = first.id
+        }
         try save(snapshot)
+    }
+    var batches: [SavedBatch] { snapshot.progress.savedBatches ?? [] }
+    var activeBatchName: String { batches.first { $0.id == snapshot.progress.activeBatchID }?.name ?? "My batch" }
+    func createBatch(name: String) throws {
+        let name = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !name.isEmpty else { throw WalletFailure("Enter a batch name.") }
+        let batch = SavedBatch(name: name)
+        try change {
+            $0.progress.savedBatches = ($0.progress.savedBatches ?? []) + [batch]
+            $0.progress.activeBatchID = batch.id; $0.progress.batch = []; $0.progress.currentID = nil
+        }
+    }
+    func selectBatch(_ id: String) throws {
+        guard let batch = batches.first(where: { $0.id == id }) else { throw WalletFailure("Batch no longer exists.") }
+        try change {
+            $0.progress.activeBatchID = batch.id
+            $0.progress.batch = batch.cardIDs; $0.progress.currentID = batch.currentID
+        }
     }
     static func merge(_ existing: [TagProduct], _ incoming: [TagProduct], replace: Bool) -> [TagProduct] {
         var result = existing
@@ -118,12 +154,31 @@ final class WalletStore {
         guard Set(value.progress.batch).count == value.progress.batch.count,
               value.progress.batch.allSatisfy({ ids.contains($0) }),
               value.progress.cards.keys.allSatisfy({ ids.contains($0) }) else { throw WalletFailure("Progress references invalid cards.") }
+        if let batches = value.progress.savedBatches {
+            guard !batches.isEmpty, Set(batches.map(\.id)).count == batches.count,
+                  batches.contains(where: { $0.id == value.progress.activeBatchID }) else { throw WalletFailure("Invalid batch lists.") }
+            for batch in batches {
+                guard !batch.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+                      Set(batch.cardIDs).count == batch.cardIDs.count,
+                      batch.cardIDs.allSatisfy({ ids.contains($0) }) else { throw WalletFailure("Invalid batch membership.") }
+            }
+        }
         for (id, data) in value.images {
             guard ids.contains(id) else { throw WalletFailure("Image references an unknown card.") }
             if previouslyValidatedImages[id] != data { _ = try normalizedImage(data) }
         }
     }
-    func save(_ candidate: LibrarySnapshot) throws {
+    func save(_ input: LibrarySnapshot) throws {
+        var candidate = input
+        // Older backups have a single projected batch; migrate them during restore too.
+        if candidate.progress.savedBatches == nil {
+            let first = SavedBatch(name: "My batch", cardIDs: candidate.progress.batch, currentID: candidate.progress.currentID)
+            candidate.progress.savedBatches = [first]; candidate.progress.activeBatchID = first.id
+        }
+        if let index = candidate.progress.savedBatches?.firstIndex(where: { $0.id == candidate.progress.activeBatchID }) {
+            candidate.progress.savedBatches?[index].cardIDs = candidate.progress.batch
+            candidate.progress.savedBatches?[index].currentID = candidate.progress.currentID
+        }
         // The current snapshot has already been validated; progress-only saves need no image decoding.
         try Self.validate(candidate, previouslyValidatedImages: snapshot.images)
         let fm = FileManager.default
@@ -137,6 +192,7 @@ final class WalletStore {
             if let previous = previous { try previous.write(to: directory.appendingPathComponent("previous-library"), atomically: true, encoding: .utf8) }
             try name.write(to: active, atomically: true, encoding: .utf8)
             let oldSnapshot = snapshot
+            if oldSnapshot.wallet.tagProducts != candidate.wallet.tagProducts { sortedProducts = nil }
             snapshot = candidate
             let newIDs = Set(candidate.wallet.tagProducts.map(\.id))
             for product in oldSnapshot.wallet.tagProducts where !newIDs.contains(product.id) {

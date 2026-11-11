@@ -176,6 +176,85 @@ final class WalletStoreTests: XCTestCase {
         let batch = LibraryViewController(store: store, batch: true); batch.loadViewIfNeeded(); batch.refresh()
         XCTAssertEqual(batch.visible.map(\.id), [card().id])
     }
+    func testMultipleListsRememberMembershipResumeAndDefaultAcrossLaunch() throws {
+        let store = try WalletStore(directory: root, bundled: wallet([card(), card(2)]))
+        let first = try XCTUnwrap(store.snapshot.progress.activeBatchID)
+        try store.change { $0.progress.batch = [self.card().id]; $0.progress.currentID = self.card().id }
+        try store.createBatch(name: "Gifts")
+        let second = try XCTUnwrap(store.snapshot.progress.activeBatchID)
+        XCTAssertNotEqual(first, second); XCTAssertTrue(store.remaining.isEmpty)
+        try store.change { $0.progress.batch.append(self.card(2).id) }
+        try store.selectBatch(first)
+        XCTAssertEqual(store.remaining, [card().id]); XCTAssertEqual(store.snapshot.progress.currentID, card().id)
+        try store.complete(card().id, source: "manual")
+        try store.selectBatch(second)
+        let reopened = try WalletStore(directory: root, bundled: wallet([card(), card(2)]))
+        XCTAssertEqual(reopened.activeBatchName, "Gifts")
+        XCTAssertEqual(reopened.snapshot.progress.batch, [card(2).id])
+        XCTAssertEqual(reopened.batches.count, 2); XCTAssertTrue(reopened.done(card().id))
+        let backup = try JSONDecoder().decode(LibrarySnapshot.self, from: reopened.backup())
+        XCTAssertEqual(backup.progress.savedBatches?.count, 2)
+        XCTAssertThrowsError(try reopened.createBatch(name: "  "))
+    }
+    func testLegacyBackupMigratesSingleListAndRejectsInvalidSavedMembership() throws {
+        let store = try WalletStore(directory: root, bundled: wallet([card()]))
+        var legacy = LibrarySnapshot(wallet: wallet([card()]))
+        legacy.progress.batch = [card().id]
+        try store.save(legacy)
+        XCTAssertEqual(store.batches.count, 1)
+        XCTAssertEqual(store.batches[0].cardIDs, [card().id])
+        var invalid = store.snapshot
+        invalid.progress.savedBatches?.append(SavedBatch(name: "Bad", cardIDs: ["missing"]))
+        XCTAssertThrowsError(try store.save(invalid))
+        XCTAssertEqual(store.batches.count, 1)
+    }
+    func testFilterDraftDoesNotMutateCatalogAndResetClearsEveryRestriction() throws {
+        var figure = card(2); figure.type = "Figure"; figure.productSeries = "Series 2"
+        let store = try WalletStore(directory: root, bundled: wallet([card(), figure]))
+        let catalog = LibraryViewController(store: store, batch: false); catalog.loadViewIfNeeded()
+        catalog.series = "Series 1"; catalog.search.searchBar.text = "etoile"; catalog.refresh()
+        let draft = LibraryFiltersController(status: catalog.status, series: catalog.series, type: catalog.type,
+            statusLabels: catalog.statusLabels, seriesNames: ["Series 1", "Series 2"]) { _, _, _, _ in XCTFail("Draft should not commit") }
+        draft.loadViewIfNeeded()
+        draft.tableView(draft.tableView, didSelectRowAt: IndexPath(row: 2, section: 3))
+        XCTAssertEqual(draft.series, "Series 2"); XCTAssertEqual(catalog.series, "Series 1")
+        catalog.resetFilters()
+        XCTAssertNil(catalog.series); XCTAssertNil(catalog.type); XCTAssertEqual(catalog.search.searchBar.text, "")
+        XCTAssertEqual(catalog.visible.count, 2)
+        XCTAssertNil(catalog.navigationItem.prompt)
+    }
+    func testMembershipRefreshPreservesVisibleCellsAndSelection() throws {
+        let store = try WalletStore(directory: root, bundled: wallet([card(), card(2)]))
+        let controller = LibraryViewController(store: store, batch: false)
+        controller.loadViewIfNeeded(); controller.view.frame = CGRect(x: 0, y: 0, width: 402, height: 874)
+        controller.collectionView.layoutIfNeeded()
+        let index = IndexPath(item: 0, section: 0)
+        let cell = try XCTUnwrap(controller.collectionView.cellForItem(at: index) as? CardCell)
+        controller.setEditing(true, animated: false)
+        controller.collectionView.selectItem(at: index, animated: false, scrollPosition: [])
+        try store.change { $0.progress.batch = [self.card().id] }
+        XCTAssertTrue(controller.collectionView.cellForItem(at: index) === cell)
+        XCTAssertEqual(controller.collectionView.indexPathsForSelectedItems, [index])
+        XCTAssertEqual(cell.badge.title(for: .normal), "Queued · Remove")
+        try store.change { $0.progress.batch.append(self.card(2).id) }
+        XCTAssertTrue(controller.collectionView.cellForItem(at: index) === cell)
+        XCTAssertEqual(cell.badge.title(for: .normal), "Queued · Remove")
+    }
+    func testFullCatalogRepeatedFilteringTiming() throws {
+        let catalog = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: Bundle(for: CardDetailController.self).url(forResource: "initialTagWallet", withExtension: "json")!))
+        let store = try WalletStore(directory: root, bundled: catalog)
+        let controller = LibraryViewController(store: store, batch: false); controller.loadViewIfNeeded()
+        let series = try XCTUnwrap(store.products.first?.productSeries)
+        let started = Date()
+        for _ in 0..<20 {
+            controller.series = series; controller.refresh(); XCTAssertEqual(controller.visible.count, 100)
+            controller.resetFilters(); XCTAssertEqual(controller.visible.count, 509)
+        }
+        print("UX timing: 40 cached filter refreshes, seconds: \(Date().timeIntervalSince(started))")
+        var edited = store.products[0]; edited.name = "Updated metadata"
+        try store.importCatalog(CatalogEnvelope(schemaVersion: 1, tagProducts: [edited], staticKey: nil, dataKey: nil, images: nil), replace: true, keys: false)
+        XCTAssertEqual(store.products.first(where: { $0.id == edited.id })?.name, edited.name)
+    }
     func testBundledCatalogBackupContainsAllArtwork() throws {
         let bundle = Bundle(for: CardDetailController.self)
         let catalog = try JSONDecoder().decode(TagWallet.self, from: Data(contentsOf: bundle.url(forResource: "initialTagWallet", withExtension: "json")!))

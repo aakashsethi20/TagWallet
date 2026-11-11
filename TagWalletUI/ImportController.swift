@@ -10,7 +10,10 @@ final class ImportController: UITableViewController, UIDocumentPickerDelegate {
     required init?(coder: NSCoder) { fatalError("Programmatic controller") }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationItem.prompt = UserDefaults.standard.string(forKey: "lastBackupExport").map { "Last export: " + $0 }
+        tableView.reloadData()
+    }
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        UserDefaults.standard.string(forKey: "lastBackupExport").map { "Last export: " + $0 }
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { options.count }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -133,7 +136,7 @@ final class ImportController: UITableViewController, UIDocumentPickerDelegate {
         present(UINavigationController(rootViewController: review), animated: true)
     }
     func offerBatch(_ ids: [String]) {
-        confirm("Import complete", "Add these \(ids.count) cards to your Christmas batch?") {
+        confirm("Import complete", "Add these \(ids.count) cards to \(store.activeBatchName)?") {
             self.attempt { try self.store.change { next in for id in ids where !next.progress.batch.contains(id) { next.progress.batch.append(id) } } }
         }
     }

@@ -49,7 +49,7 @@ Export backup writes a self-contained `.tagwalletbackup` JSON with schemaVersion
 
 Restore backup is a separate replacement operation with a confirmation showing counts/date. Catalog imports cannot replace progress. A pre-restore snapshot is retained locally. External backups are required to recover after deleting the app.
 
-Progress stores ordered batch IDs, per-card completion time/source/Switch-tested flag, and resume ID. Successful NFC writing marks Done; Switch-tested is always manual.
+Progress stores ordered active batch IDs, per-card completion time/source/Switch-tested flag, and resume ID. Optional `savedBatches` stores named lists with their IDs, ordered `cardIDs`, and `currentID`; `activeBatchID` selects the list projected into the existing batch/resume fields. Older snapshots without these fields migrate to one “My batch” list. Completion history is shared across lists. Successful NFC writing marks Done; Switch-tested is always manual.
 
 ## Storage and recovery
 Documents contains UUID generation directories, each with a complete `snapshot.json`. `active-library` names the active generation; `previous-library` names the previous one. Library and progress are logically separate fields committed together. Atomic pointer replacement activates a fully staged snapshot. The active and previous generations are retained; old generations are pruned. Initial migration preserves `tagWallet-before-migration.json`; restore preserves `before-restore.tagwalletbackup`.

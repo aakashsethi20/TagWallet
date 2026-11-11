@@ -1,5 +1,8 @@
 # TagWallet implementation plan
 
+## Scope amendment from device feedback (2026-11-10)
+The user authorized multiple named saved batch lists, with the remembered active list used directly by Add (including a one-list setup). This supersedes the original single Christmas batch restriction below. Membership/resume is per list; existing completion/Switch-tested history remains shared. See checkpoint-ux-issues.md for implementation/verification status.
+
 ## Goal and agreed scope
 Build an offline 509-card catalog, one Christmas batch for writing 50–100 cards, durable completion tracking, on-device content import, and complete backup/restore. Keep UIKit and the proven NFC cryptography/page-writing implementation. No cloud accounts/sync, multiple batches, printing, or new third-party dependencies. Artwork is for the app only.
 

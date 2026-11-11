@@ -37,24 +37,37 @@ final class LibraryViewController: UICollectionViewController, UICollectionViewD
     var series: String?
     var type: String? = "Card"
     let search = UISearchController(searchResultsController: nil)
+    let summary = UILabel()
+    var statusLabels: [String] { batch ? ["Remaining", "Done", "All statuses"] : ["All statuses", "Remaining", "Done"] }
+
     init(store: WalletStore, batch: Bool) {
         self.store = store; self.batch = batch
         let layout = UICollectionViewFlowLayout(); layout.minimumInteritemSpacing = 12; layout.minimumLineSpacing = 16
         layout.sectionInset = UIEdgeInsets(top: 16, left: 16, bottom: 24, right: 16)
         super.init(collectionViewLayout: layout)
-        title = batch ? "Christmas batch" : "Catalog"
+        title = batch ? "Batch" : "Catalog"
         tabBarItem.image = UIImage(systemName: batch ? "gift" : "square.grid.2x2")
     }
     required init?(coder: NSCoder) { fatalError("Programmatic controller") }
     override func viewDidLoad() {
         super.viewDidLoad()
+        collectionView.allowsSelectionDuringEditing = true
+        collectionView.allowsMultipleSelectionDuringEditing = true
         collectionView.backgroundColor = .systemGroupedBackground
         collectionView.register(CardCell.self, forCellWithReuseIdentifier: "card")
+        definesPresentationContext = true
+        summary.font = .preferredFont(forTextStyle: .footnote)
+        summary.adjustsFontForContentSizeCategory = true
+        summary.textColor = .secondaryLabel; summary.textAlignment = .center
+        summary.numberOfLines = 0
+        summary.frame.size.height = 40
+        collectionView.addSubview(summary)
+        collectionView.contentInset.top = 40
         search.searchResultsUpdater = self; search.obscuresBackgroundDuringPresentation = false
         search.searchBar.placeholder = "Character or card number"
         navigationItem.searchController = search
         navigationItem.hidesSearchBarWhenScrolling = false
-        navigationItem.rightBarButtonItem = editButtonItem
+        navigationItem.rightBarButtonItems = [editButtonItem, UIBarButtonItem(title: "Lists", style: .plain, target: self, action: #selector(batchLists))]
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Filters", style: .plain, target: self, action: #selector(filters))
         NotificationCenter.default.addObserver(self, selector: #selector(refresh), name: WalletStore.changed, object: store)
         refresh()
@@ -64,29 +77,55 @@ final class LibraryViewController: UICollectionViewController, UICollectionViewD
     @objc func refresh() {
         let query = search.searchBar.text ?? ""
         let source = batch ? store.snapshot.progress.batch.compactMap(store.product) : store.products
+        let oldIDs = visible.map(\.id)
         visible = source.filter { p in
             let done = store.done(p.id)
             let allowed = batch ? (status == 0 ? !done : status == 1 ? done : true) : (status == 0 ? true : status == 1 ? !done : done)
             return allowed && (type == nil || p.type == type) && (series == nil || p.productSeries == series) && (query.isEmpty || (p.name + " " + p.character + " " + (p.cardNumber ?? "")).localizedStandardContains(query))
         }
-        let labels = batch ? ["Remaining", "Done", "All"] : ["All", "Remaining", "Done"]
-        navigationItem.prompt = batch ? "\(store.snapshot.progress.batch.count - store.remaining.count) of \(store.snapshot.progress.batch.count) done · \(labels[status])" : "\(visible.count) cards · \(labels[status])"
+        summary.text = batch ? "\(store.activeBatchName): \(store.snapshot.progress.batch.count - store.remaining.count) of \(store.snapshot.progress.batch.count) done · \(statusLabels[status])" : "\(visible.count) cards · Add to \(store.activeBatchName)"
         let toolbar = batch && !isEditing ? [UIBarButtonItem(title: "Start / Resume writing", style: .done, target: self, action: #selector(resume))] : isEditing ? [UIBarButtonItem(title: "Add selected", style: .plain, target: self, action: #selector(addSelected)), UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil), UIBarButtonItem(title: "Remove selected", style: .plain, target: self, action: #selector(removeSelected))] : []
         toolbarItems = toolbar; navigationController?.setToolbarHidden(toolbar.isEmpty, animated: false)
-        collectionView.reloadData()
+        if oldIDs == visible.map(\.id) {
+            // Keep existing cells and selection for membership/progress-only changes.
+            UIView.performWithoutAnimation {
+                for index in collectionView.indexPathsForVisibleItems {
+                    if let cell = collectionView.cellForItem(at: index) as? CardCell {
+                        configure(cell, product: visible[index.item])
+                    }
+                }
+            }
+        } else {
+            collectionView.reloadData()
+        }
         let label = UILabel(); label.textAlignment = .center; label.numberOfLines = 0
         label.text = batch && store.snapshot.progress.batch.isEmpty ? "Add cards from Catalog to start your batch." : "No cards match this filter."
         collectionView.backgroundView = visible.isEmpty ? label : nil
     }
     override func setEditing(_ editing: Bool, animated: Bool) { super.setEditing(editing, animated: animated); collectionView.allowsMultipleSelection = editing; refresh() }
+    func resetFilters() {
+        status = batch ? 2 : 0; series = nil; type = nil
+        search.searchBar.text = ""; refresh()
+    }
     @objc func filters() {
-        let alert = UIAlertController(title: "Filter cards", message: nil, preferredStyle: .actionSheet)
-        for (index, label) in (batch ? ["Remaining", "Done", "All"] : ["All", "Remaining", "Done"]).enumerated() { alert.addAction(UIAlertAction(title: label, style: .default) { _ in self.status = index; self.refresh() }) }
-        for kind in ["Card", "Figure", "All types"] { alert.addAction(UIAlertAction(title: kind, style: .default) { _ in self.type = kind == "All types" ? nil : kind; self.refresh() }) }
-        alert.addAction(UIAlertAction(title: "All series", style: .default) { _ in self.series = nil; self.refresh() })
-        for name in Set(store.products.map(\.productSeries)).sorted() { alert.addAction(UIAlertAction(title: name, style: .default) { _ in self.series = name; self.refresh() }) }
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel)); alert.popoverPresentationController?.barButtonItem = navigationItem.leftBarButtonItem
-        present(alert, animated: true)
+        // End search presentation before presenting a separate modal.
+        let controller = LibraryFiltersController(status: status, series: series, type: type,
+            statusLabels: statusLabels, seriesNames: Set(store.products.map(\.productSeries)).sorted()) { [weak self] status, series, type, reset in
+                guard let self = self else { return }
+                if reset { self.resetFilters() }
+                else { self.status = status; self.series = series; self.type = type; self.refresh() }
+        }
+        presentLibrarySheet(controller)
+    }
+    func presentLibrarySheet(_ controller: UIViewController) {
+        let show = { self.present(UINavigationController(rootViewController: controller), animated: true) }
+        if search.isActive { search.dismiss(animated: false) { self.search.isActive = false; show() } }
+        else { show() }
+    }
+    @objc func batchLists() { presentLibrarySheet(BatchListsController(store: store)) }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        summary.frame = CGRect(x: 16, y: -40, width: max(0, collectionView.bounds.width - 32), height: 40)
     }
     @objc func addSelected() { updateSelected(remove: false) }
     @objc func removeSelected() { updateSelected(remove: true) }
@@ -105,17 +144,27 @@ final class LibraryViewController: UICollectionViewController, UICollectionViewD
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int { visible.count }
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card", for: indexPath) as! CardCell
-        let p = visible[indexPath.item]; cell.accessibilityIdentifier = p.id
+        configure(cell, product: visible[indexPath.item])
+        return cell
+    }
+    func configure(_ cell: CardCell, product p: TagProduct) {
+        let needsArtwork = cell.accessibilityIdentifier != p.id || cell.artwork.image == nil
+        cell.accessibilityIdentifier = p.id
         cell.name.text = p.name
-        cell.artwork.image = store.image(p) ?? UIImage(systemName: "rectangle.portrait")
-        if store.image(p) == nil && !p.imageURL.isEmpty { p.getImage { [weak cell] image in if cell?.accessibilityIdentifier == p.id { cell?.artwork.image = image } } }
+        let localImage = store.image(p)
+        if needsArtwork || (localImage != nil && localImage !== cell.artwork.image) {
+            cell.artwork.image = localImage ?? UIImage(systemName: "rectangle.portrait")
+        }
+        if localImage == nil && needsArtwork && !p.imageURL.isEmpty { p.getImage { [weak cell] image in if cell?.accessibilityIdentifier == p.id { cell?.artwork.image = image } } }
         let state = store.done(p.id) ? "✓ Done" : store.snapshot.progress.batch.contains(p.id) ? "Queued · Remove" : "+ Add"
-        cell.badge.setTitle(state, for: .normal); cell.badge.accessibilityLabel = state + " " + p.name
+        if cell.badge.title(for: .normal) != state {
+            UIView.performWithoutAnimation { cell.badge.setTitle(state, for: .normal); cell.badge.layoutIfNeeded() }
+        }
+        cell.badge.accessibilityLabel = state + " " + p.name
         cell.badge.isEnabled = !isEditing
         cell.action = { [weak self] in guard let self = self else { return }; self.attempt { try self.store.change { next in
             if next.progress.batch.contains(p.id) { next.progress.batch.removeAll { $0 == p.id } } else { next.progress.batch.append(p.id) }
         } } }
-        return cell
     }
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard !isEditing else { return }
@@ -126,6 +175,96 @@ final class LibraryViewController: UICollectionViewController, UICollectionViewD
         let columns: CGFloat = traitCollection.preferredContentSizeCategory.isAccessibilityCategory ? 1 : collectionView.bounds.width > 600 ? 4 : 2
         let width = (collectionView.bounds.width - 32 - (columns - 1) * 12) / columns
         return CGSize(width: width, height: (width - 20) * 1.25 + 120)
+    }
+}
+
+final class BatchListsController: UITableViewController {
+    let store: WalletStore
+    init(store: WalletStore) { self.store = store; super.init(style: .insetGrouped) }
+    required init?(coder: NSCoder) { fatalError("Programmatic controller") }
+    override func viewDidLoad() {
+        super.viewDidLoad(); title = "Batch lists"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(close))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "New batch", style: .done, target: self, action: #selector(create))
+    }
+    @objc func close() { dismiss(animated: true) }
+    @objc func create() {
+        let alert = UIAlertController(title: "New batch", message: "Add will use this list. Completion history is shared across lists.", preferredStyle: .alert)
+        alert.addTextField { $0.placeholder = "Batch name" }
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        alert.addAction(UIAlertAction(title: "Create", style: .default) { _ in
+            self.attempt { try self.store.createBatch(name: alert.textFields?.first?.text ?? ""); self.tableView.reloadData() }
+        })
+        present(alert, animated: true)
+    }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { store.batches.count }
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        "Add uses the selected list until you switch lists. Completion and Switch-tested history are shared."
+    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let list = store.batches[indexPath.row]
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
+        cell.textLabel?.text = list.name; cell.textLabel?.numberOfLines = 0
+        cell.detailTextLabel?.text = "\(list.cardIDs.count) cards"
+        cell.accessoryType = list.id == store.snapshot.progress.activeBatchID ? .checkmark : .none
+        return cell
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        attempt { try store.selectBatch(store.batches[indexPath.row].id); dismiss(animated: true) }
+    }
+}
+
+/// Edits a local draft. Swiping/Cancel discards it; Apply commits after dismissal.
+final class LibraryFiltersController: UITableViewController {
+    var status: Int
+    var series: String?
+    var type: String?
+    let statusLabels: [String]
+    let seriesNames: [String]
+    let apply: (Int, String?, String?, Bool) -> Void
+    init(status: Int, series: String?, type: String?, statusLabels: [String], seriesNames: [String], apply: @escaping (Int, String?, String?, Bool) -> Void) {
+        self.status = status; self.series = series; self.type = type
+        self.statusLabels = statusLabels; self.seriesNames = seriesNames; self.apply = apply
+        super.init(style: .insetGrouped)
+    }
+    required init?(coder: NSCoder) { fatalError("Programmatic controller") }
+    override func viewDidLoad() {
+        super.viewDidLoad(); title = "Filters"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(cancel))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Apply", style: .done, target: self, action: #selector(commit))
+    }
+    @objc func cancel() { dismiss(animated: true) }
+    @objc func commit() { dismiss(animated: true) { self.apply(self.status, self.series, self.type, false) } }
+    override func numberOfSections(in tableView: UITableView) -> Int { 4 }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        [1, statusLabels.count, 3, seriesNames.count + 1][section]
+    }
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        ["Reset", "Completion status", "Product type", "Series"][section]
+    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        let row = indexPath.row
+        var selected = false
+        switch indexPath.section {
+        case 0: cell.textLabel?.text = "Show all cards (clear filters and search)"
+        case 1: cell.textLabel?.text = statusLabels[row]; selected = status == row
+        case 2: cell.textLabel?.text = ["All types", "Card", "Figure"][row]; selected = type == [nil, "Card", "Figure"][row]
+        default: cell.textLabel?.text = row == 0 ? "All series" : seriesNames[row - 1]; selected = series == (row == 0 ? nil : seriesNames[row - 1])
+        }
+        cell.textLabel?.numberOfLines = 0; cell.textLabel?.font = .preferredFont(forTextStyle: .body)
+        cell.accessoryType = selected ? .checkmark : .none
+        return cell
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let row = indexPath.row
+        switch indexPath.section {
+        case 0: dismiss(animated: true) { self.apply(self.status, nil, nil, true) }; return
+        case 1: status = row
+        case 2: type = [nil, "Card", "Figure"][row]
+        default: series = row == 0 ? nil : seriesNames[row - 1]
+        }
+        tableView.reloadData()
     }
 }
 
@@ -151,7 +290,7 @@ final class CardDetailController: UITableViewController, UIDocumentPickerDelegat
         tableView.tableHeaderView = image; tableView.reloadData()
     }
     var actions: [String] {
-        [unsavedWrite ? "Retry saving completion (tag already written)" : "Write card", store.snapshot.progress.batch.contains(id) ? "Remove from batch" : "Add to Christmas batch", store.done(id) ? "Undo done" : "Mark done manually", "Switch tested: \(store.snapshot.progress.cards[id]?.switchTested == true ? "Yes" : "No")", "Edit character details", "Choose image", "Dump \(dumpIndex + 1) of \(product.dumps.count)"] + (sequential ? ["Write next", "Skip for now"] : [])
+        [unsavedWrite ? "Retry saving completion (tag already written)" : "Write card", store.snapshot.progress.batch.contains(id) ? "Remove from batch" : "Add to batch", store.done(id) ? "Undo done" : "Mark done manually", "Switch tested: \(store.snapshot.progress.cards[id]?.switchTested == true ? "Yes" : "No")", "Edit character details", "Choose image", "Dump \(dumpIndex + 1) of \(product.dumps.count)"] + (sequential ? ["Write next", "Skip for now"] : [])
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { actions.count }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

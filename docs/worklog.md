@@ -105,3 +105,15 @@ User requested stopping at the next checkpoint to continue with a less expensive
 - Added import-guide.md with phone BIN/catalog steps, review switches, duplicate/error handling, batch prompt semantics, generator command, and backup/restore distinction. Instructions checked against the current import/store/generator code; no new device verification performed.
 - The requested ability to create batch lists supersedes the original single Christmas batch direction, but multiple-list lifecycle and completion semantics remain to be designed before implementation.
 - Documentation-only continuation. The earlier tuple-label fix remains a separate local source change; personal project settings and untracked files are preserved.
+
+## UX fixes and saved lists checkpoint (2026-11-10)
+- User authorized working through reports and specified multiple saved lists, with Add defaulting to the remembered list.
+- Implemented grouped draft filters, explicit Apply/Cancel, all-filter/search reset, and search presentation context/dismissal handling. Replaced navigation prompts with grid summary/table footer to avoid the reported prompt layout path.
+- Cached catalog sorting/ranking; retain visible cells, selections, and stable badge titles for unchanged result order. Enabled editing-mode selection/multiple selection.
+- Added named saved batches, Lists/New batch UI in Catalog and Batch, remembered active list, per-list membership/resume, and migration of old single lists/backups. Completion and Switch-tested history remains global/shared. No rename/delete UI in this pass.
+- Added regressions for saved-list persistence/migration/validation/backup encoding, filter draft/reset, stable cells/selection/badges, and 509-card filtering/cache invalidation.
+- Final simulator suite: 22 tests, 0 failures. Warm timing: 40 filter/reset refreshes in about 37 ms (not device rendering performance). Log: /private/tmp/TagWallet-ux-tests-final.log.
+- Final unsigned generic iOS build passed: /private/tmp/TagWallet-ux-device.log.
+- Native UI inventory excludes Simulator; full app path also returned Invalid app. No interactive visual verification claimed. Phone checks: Add/Remove badge stability, selection, filter swipe-dismiss/Apply/reset with active search, named lists/relaunch, dark mode/larger text, and fresh log capture.
+- Existing physical NFC/Files/Switch checklist remains pending. Large embedded-image snapshot encoding is still synchronous; investigate separately if restored-library mutations stall.
+- Included the previously requested and built tuple-label warning fix in this checkpoint; preserved personal project settings/untracked files. No push or phone install.
