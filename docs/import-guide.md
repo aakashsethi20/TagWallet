@@ -40,14 +40,20 @@ Catalog imports do not import batch/completion history. Unsupported schemas, inv
 
 ## Prepare a catalog on your Mac
 
-From the TagWallet repository, with the expected source library available:
+The generator supports the folder layout in [miffycs/Animal-Crossing-Amiibo](https://github.com/miffycs/Animal-Crossing-Amiibo). From the TagWallet repository root, clone that source into the ignored `private/` directory, then generate your private catalog:
+
 
 ```bash
+mkdir -p private
+git clone https://github.com/miffycs/Animal-Crossing-Amiibo.git private/Animal-Crossing-Amiibo
+
 python3 scripts/import_catalog.py \
-  --source /Users/kashsethi/projects/Animal-Crossing-Amiibo \
+  --source private/Animal-Crossing-Amiibo \
   --output private/tagwallet-catalog.json \
   --images TagWalletUI/CardImages
 ```
+
+If you already have a checkout, skip the clone and pass its location to `--source`. The source must contain the expected series folders and `TagMo_Installer` key files.
 
 Copy `private/tagwallet-catalog.json` to iCloud Drive, then select it using Import catalog on the phone. The generator expects the source folder structure described in [implementation-plan.md](implementation-plan.md); it is for this 509-card source collection, not an arbitrary folder of BINs. Use phone BIN import for individual dumps.
 

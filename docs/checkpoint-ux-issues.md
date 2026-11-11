@@ -2,7 +2,7 @@
 
 Recorded from user testing on 2026-11-10. Baseline: commit `fdd0cb9`, plus the local tuple-label warning fix in `TagProductsCollectionViewController.swift`. These are user-reported observations, not independently reproduced fixes. Device model, iOS version, and precise installed build are not yet recorded.
 
-Status: open. Documentation only; do not treat the earlier passing unit tests/build as UX acceptance. Import instructions: [import guide](import-guide.md).
+Status: implementation follow-up completed below; remaining phone verification is open. The user reports improved behavior after these fixes. The original reports below are retained as historical reproduction notes; do not treat passing unit tests/build as device UX acceptance. Import instructions: [import guide](import-guide.md).
 
 ## UX-01 — General-purpose batch lists (product change)
 

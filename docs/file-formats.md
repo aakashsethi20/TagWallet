@@ -23,13 +23,15 @@ Images selected from Files must be PNG/JPEG, at most 10 MB and 25 megapixels. Th
 
 ## Build catalogs on your Mac
 
+First follow the [source checkout instructions](import-guide.md#prepare-a-catalog-on-your-mac) for [miffycs/Animal-Crossing-Amiibo](https://github.com/miffycs/Animal-Crossing-Amiibo). Run these commands from the TagWallet repository root.
+
 ```bash
 python3 scripts/import_catalog.py \
-  --source /Users/kashsethi/projects/Animal-Crossing-Amiibo \
+  --source private/Animal-Crossing-Amiibo \
   --output private/catalog.json --validate-only
 
 python3 scripts/import_catalog.py \
-  --source /Users/kashsethi/projects/Animal-Crossing-Amiibo \
+  --source private/Animal-Crossing-Amiibo \
   --output private/catalog.json \
   --images TagWalletUI/CardImages
 ```

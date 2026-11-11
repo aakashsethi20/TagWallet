@@ -18,7 +18,7 @@ Build an offline 509-card catalog, one Christmas batch for writing 50–100 card
 
 ## Catalog generator and images
 - Python standard-library script with source/output paths and validation-only mode.
-- Source: /Users/kashsethi/projects/Animal-Crossing-Amiibo.
+- Source: [miffycs/Animal-Crossing-Amiibo](https://github.com/miffycs/Animal-Crossing-Amiibo); use a checkout under ignored `private/Animal-Crossing-Amiibo` (see import-guide.md).
 - unfixed-info.bin -> dataKey; locked-secret.bin -> staticKey; validate 80 bytes and key layout.
 - 509 dumps: Series 1–4 100 each, Series 5 48, Welcome Amiibo 50, Sanrio 6, Promos 5. Exclude installer bins.
 - Source dumps 540 bytes; store first 532 as Base64. head bytes [84:88], tail [88:92]. Preserve number prefixes, derive names/series from filenames, reject duplicate IDs and invalid sources, deterministic output. Never log keys/dumps.

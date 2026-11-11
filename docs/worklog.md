@@ -1,12 +1,20 @@
 # TagWallet worklog
 
+## Current handoff summary
+
+- Public fork migration and private-data history cleanup are **complete**. Current source bundles only metadata/artwork; keys and dumps are supplied through Files imports. See [publication checkpoint](repository-publication-checkpoint.md).
+- Catalog filter/refresh fixes and multiple saved batch lists are **implemented and tested**. The user reports improved behavior. Real NFC testing is still pending; automated checks do not establish device acceptance.
+- Latest source validation at publication: 22 XCTest tests, seven Python tests, unsigned iOS build, and history audit/CI passed.
+- Remaining work: [device checklist](device-checklist.md), remaining verification in [UX issues](checkpoint-ux-issues.md), and any new user requests. URL import and batch rename/delete UI are not implemented. Large restored-library snapshot encoding still needs profiling if mutations stall.
+- Start future sessions with [AGENTS.md](../AGENTS.md). Earlier sections below are historical; pre-rewrite commit IDs and temporary artifact paths are evidence, not current setup instructions. Read later completion entries before treating an old TODO or pause as active.
+
 ## Branch and baseline
 - Feature branch: feat/offline-library-christmas-batch.
 - Working plan: implementation-plan.md (same directory).
 - User verified the ten-card pilot writes and works on Switch.
 - Pre-existing uncommitted changes: Xcode project/settings, ten-card initialTagWallet.json with keys, two-line detail-controller key handoff. Preserve these. Personal .DS_Store and Xcode xcuserdata must not be committed.
 
-## Current progress
+## Historical initial progress (superseded by later checkpoints)
 - Started model changes: mutable product metadata, optional cardNumber/imageAssetName, computed lowercase identity.
 - Added validating Codable decoding for TagDump (532/540 accepted, normalized) and TagKey (80 bytes/layout).
 - Drafted WalletStore.swift: snapshots, active/previous generation pointers, migration, merge, catalog import, image normalization, backup encoding. NOT yet registered in Xcode or built/tested.
@@ -129,3 +137,8 @@ User requested stopping at the next checkpoint to continue with a less expensive
 - History/staged audits passed before committing/pushing; GitHub audit CI passed. Final source validation: 22 XCTest tests, seven Python tests, unsigned iOS build passed.
 - Current checkout now uses sanitized history with origin pointing to the fork and original upstream fetch-only. Old private history is outside the repo at /private/tmp/TagWallet-original-private.git. Private local catalog and personal project settings preserved. Old feature hashes elsewhere in this log refer to pre-rewrite private history.
 - Phone NFC verification and URL import remain pending; URL import was not part of this sanitization. See repository-publication-checkpoint.md for completed status and audit limitations.
+
+## Portable documentation and agent handoff (2026-11-10)
+- Replaced machine-specific source paths in import-guide.md, file-formats.md, and implementation-plan.md with the verified source repository link and ignored project-relative checkout instructions.
+- Added root AGENTS.md covering architecture, batch/persistence invariants, private-data rules, portable validation commands, checkpoint discipline, and remaining verification.
+- Added the current handoff summary above so completed features/publication are distinct from historical TODOs. Documentation-only change; no app behavior changed.
