@@ -74,7 +74,7 @@ final class WalletStore {
                 }
                 let old = try JSONDecoder().decode(TagWallet.self, from: JSONSerialization.data(withJSONObject: object))
                 try raw.write(to: directory.appendingPathComponent("tagWallet-before-migration.json"), options: .atomic)
-                snapshot.wallet.tagProducts = Self.merge(bundled.tagProducts, old.tagProducts, replace: false)
+                snapshot.wallet.tagProducts = Self.merge(old.tagProducts, bundled.tagProducts, replace: false)
                 snapshot.wallet.staticKey = old.staticKey ?? bundled.staticKey
                 snapshot.wallet.dataKey = old.dataKey ?? bundled.dataKey
             }
@@ -104,6 +104,9 @@ final class WalletStore {
         return result
     }
     static func validate(_ value: LibrarySnapshot) throws {
+        try validate(value, previouslyValidatedImages: [:])
+    }
+    private static func validate(_ value: LibrarySnapshot, previouslyValidatedImages: [String: Data]) throws {
         guard value.schemaVersion == 1 else { throw WalletFailure("Unsupported backup version.") }
         var ids = Set<String>()
         for p in value.wallet.tagProducts {
@@ -117,11 +120,12 @@ final class WalletStore {
               value.progress.cards.keys.allSatisfy({ ids.contains($0) }) else { throw WalletFailure("Progress references invalid cards.") }
         for (id, data) in value.images {
             guard ids.contains(id) else { throw WalletFailure("Image references an unknown card.") }
-            _ = try normalizedImage(data)
+            if previouslyValidatedImages[id] != data { _ = try normalizedImage(data) }
         }
     }
     func save(_ candidate: LibrarySnapshot) throws {
-        try Self.validate(candidate)
+        // The current snapshot has already been validated; progress-only saves need no image decoding.
+        try Self.validate(candidate, previouslyValidatedImages: snapshot.images)
         let fm = FileManager.default
         let name = UUID().uuidString
         let staging = directory.appendingPathComponent(name)
@@ -132,8 +136,19 @@ final class WalletStore {
             let previous = try? String(contentsOf: active, encoding: .utf8)
             if let previous = previous { try previous.write(to: directory.appendingPathComponent("previous-library"), atomically: true, encoding: .utf8) }
             try name.write(to: active, atomically: true, encoding: .utf8)
+            let oldSnapshot = snapshot
             snapshot = candidate
-            imageCache.removeAllObjects()
+            let newIDs = Set(candidate.wallet.tagProducts.map(\.id))
+            for product in oldSnapshot.wallet.tagProducts where !newIDs.contains(product.id) {
+                imageCache.removeObject(forKey: product.id as NSString)
+            }
+            let oldAssets = Dictionary(uniqueKeysWithValues: oldSnapshot.wallet.tagProducts.map { ($0.id, $0.imageAssetName) })
+            for product in candidate.wallet.tagProducts {
+                if oldSnapshot.images[product.id] != candidate.images[product.id] ||
+                    (oldAssets[product.id] ?? nil) != product.imageAssetName {
+                    imageCache.removeObject(forKey: product.id as NSString)
+                }
+            }
             for url in (try? fm.contentsOfDirectory(at: directory, includingPropertiesForKeys: nil)) ?? [] where UUID(uuidString: url.lastPathComponent) != nil && url.lastPathComponent != name && url.lastPathComponent != previous {
                 try? fm.removeItem(at: url)
             }

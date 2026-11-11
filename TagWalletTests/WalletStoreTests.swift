@@ -28,6 +28,27 @@ final class WalletStoreTests: XCTestCase {
         let reopened = try WalletStore(directory: root, bundled: wallet([card(2), card(3)]))
         XCTAssertEqual(reopened.products.count, 3); XCTAssertTrue(reopened.done(card().id))
     }
+    func testMigrationPreservesMatchingCustomMetadata() throws {
+        var custom = card(); custom.name = "My custom name"; custom.character = "Custom"
+        try JSONEncoder().encode(wallet([custom])).write(to: root.appendingPathComponent("tagWallet.json"))
+        let store = try WalletStore(directory: root, bundled: wallet([card()]))
+        XCTAssertEqual(store.product(custom.id)?.name, custom.name)
+        XCTAssertEqual(store.product(custom.id)?.character, custom.character)
+    }
+    func testNextSaveFailureKeepsCurrentCardAndDoesNotWrite() throws {
+        let store = try WalletStore(directory: root, bundled: wallet([card(), card(2)]))
+        try store.change { $0.progress.batch = [self.card().id, self.card(2).id] }
+        let fake = FakeWriter()
+        let controller = CardDetailController(store: store, id: card().id, sequential: true, writer: fake)
+        controller.loadViewIfNeeded()
+        let pointer = root.appendingPathComponent("active-library")
+        try FileManager.default.removeItem(at: pointer)
+        try FileManager.default.createDirectory(at: pointer, withIntermediateDirectories: true)
+        controller.next(start: true)
+        XCTAssertEqual(controller.id, card().id)
+        XCTAssertEqual(fake.calls, 0)
+        XCTAssertNil(store.snapshot.progress.currentID)
+    }
     func testImportDeduplicatesAndKeepsProgress() throws {
         let store = try WalletStore(directory: root, bundled: wallet([card()]))
         try store.complete(card().id, source: "nfc")
@@ -46,6 +67,18 @@ final class WalletStoreTests: XCTestCase {
         second.head = "ffffffff"
         XCTAssertThrowsError(try store.importCatalog(CatalogEnvelope(schemaVersion: 1, tagProducts: [second], staticKey: nil, dataKey: nil, images: nil), replace: false, keys: false))
         XCTAssertEqual(store.products.count, 1)
+    }
+    func testProgressSaveRetainsImageCacheAndRejectsChangedInvalidImage() throws {
+        let store = try WalletStore(directory: root, bundled: wallet([card()]))
+        let image = UIGraphicsImageRenderer(size: CGSize(width: 10, height: 10)).pngData { context in
+            UIColor.red.setFill(); context.fill(CGRect(x: 0, y: 0, width: 10, height: 10))
+        }
+        try store.change { $0.images[self.card().id] = image }
+        let cached = try XCTUnwrap(store.image(card()))
+        try store.complete(card().id, source: "manual")
+        XCTAssertTrue(cached === store.image(card()))
+        XCTAssertThrowsError(try store.change { $0.images[self.card().id] = Data("invalid".utf8) })
+        XCTAssertEqual(store.snapshot.images[card().id], image)
     }
     func testBackupRoundTrip() throws {
         let store = try WalletStore(directory: root, bundled: wallet([card()]))

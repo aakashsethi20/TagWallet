@@ -238,8 +238,9 @@ final class CardDetailController: UITableViewController, UIDocumentPickerDelegat
     func next(start: Bool) {
         guard !unsavedWrite else { inform("Save completion first"); return }
         guard let nextID = store.remaining.first(where: { $0 != id }) ?? (store.done(id) ? nil : store.remaining.first) else { inform("Batch complete"); return }
-        id = nextID; dumpIndex = 0
-        attempt { try store.change { $0.progress.currentID = id } }; refresh()
+        do { try store.change { $0.progress.currentID = nextID } }
+        catch { inform("Could not save position", error.localizedDescription); return }
+        id = nextID; dumpIndex = 0; refresh()
         if start { startWrite() }
     }
 }

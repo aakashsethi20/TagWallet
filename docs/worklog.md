@@ -85,3 +85,15 @@ User requested stopping at the next checkpoint to continue with a less expensive
 - Result bundle: /private/tmp/TagWallet-test-build/Logs/Test/Test-TagWallet-2026.11.10_22-25-45--0500.xcresult.
 - Python generator suite PASSED: 4 tests.
 - Implementation paused as requested; remaining review/device checks are listed above.
+
+## Resumed review checkpoint (2026-11-10)
+- Resumed from 05ff0c5 at the user's request; preserved personal project settings and generated/untracked files.
+- Fixed migration precedence: matching legacy custom metadata now wins over bundled metadata, while bundle additions and distinct dumps still merge.
+- Fixed failed next-position saves: keep the displayed card and do not start NFC when persistence fails.
+- Progress-only saves skip normalization of unchanged validated images and retain cached artwork. Changed images remain validated; changed/removed image entries invalidate cache. Snapshot JSON still embeds/reencodes all images, so restored-library write latency remains a profiling item.
+- Added regressions for matching legacy metadata, failed next-position persistence, and image cache retention/changed invalid image rejection.
+- Validation: 17 XCTest tests passed (0 failures), 4 Python generator tests passed, final unsigned generic iOS build passed, git diff --check passed.
+- Logs: /private/tmp/TagWallet-resume-tests.log and /private/tmp/TagWallet-resume-device.log.
+- Simulator interactive inspection was attempted through the native UI tool, but both Simulator name and bundle identifier returned Invalid app. Multi-selection, batch/skip/resume, image review, import review/restore, dark mode, and larger-text visual checks remain unverified.
+- Physical NFC/Files/Switch checks remain pending per device-checklist.md. No phone installation, NFC write, push, or deployment performed.
+- Remaining review: future bundled metadata update policy, interrupted restore/recovery behavior, stale currentID handling (resume already falls back to remaining), and full-library snapshot latency. Do not treat this checkpoint as end-to-end acceptance.
